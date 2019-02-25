@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lionslayer",
+			"Myanmars",
+			"Ninjastrikers",
+			"Penguinlay"
+		]
+	},
+	"hawiki-action-addsection": "အကြောင်းအရာအသစ် ထပ်ထည့်ရန်",
+	"hawiki-action-delete": "ဖျက်​ပါ​",
+	"hawiki-action-move": "ရွှေ့ပါ",
+	"hawiki-action-protect": "ကာကွယ်ပါ",
+	"hawiki-action-undelete": "မဖျက်တော့ရန်",
+	"hawiki-action-unprotect": "ကာကွယ်ခြင်းကို ပြောင်းလဲရန်",
+	"hawiki-view-create": "စတင်ရေးသားရန်",
+	"hawiki-view-edit": "ပြင်ရန်",
+	"hawiki-view-history": "ရာဇဝင်ကြည့်ရန်",
+	"hawiki-view-view": "ဖတ်ရန်",
+	"hawiki-view-viewsource": "ရင်းမြစ်ကို ကြည့်ရန်",
+	"hawiki-more-actions": "ပို၍"
+}

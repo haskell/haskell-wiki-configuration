@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alunardon90",
+			"Candalua",
+			"Frigotoni",
+			"GatoSelvadego",
+			"Vajotwo"
+		]
+	},
+	"hawiki-action-addsection": "Xonta discusion",
+	"hawiki-action-delete": "Scanseƚa",
+	"hawiki-action-move": "Sposta",
+	"hawiki-action-protect": "Protegi",
+	"hawiki-action-undelete": "Recupera",
+	"hawiki-action-unprotect": "Canbia ƚa protesion",
+	"hawiki-view-create": "Crea",
+	"hawiki-view-edit": "Canbia",
+	"hawiki-view-history": "Varda ƚa stòria",
+	"hawiki-view-view": "Lexi",
+	"hawiki-view-viewsource": "Varda el testo",
+	"hawiki-more-actions": "Piassè"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anjoeli9806",
+			"Redhotchili23"
+		]
+	},
+	"hawiki-action-addsection": "Magdugang sing topiko",
+	"hawiki-action-delete": "Panason",
+	"hawiki-action-move": "Saylohon",
+	"hawiki-action-protect": "Pangapinan",
+	"hawiki-action-undelete": "Dulaon ang pagpanas",
+	"hawiki-action-unprotect": "Ilisan ang pagpangapin",
+	"hawiki-view-create": "Himuon",
+	"hawiki-view-edit": "Liwaton",
+	"hawiki-view-history": "Lantawon ang nagkalatabo",
+	"hawiki-view-view": "Magbasa",
+	"hawiki-view-viewsource": "Lantawon ang ginhalinan",
+	"hawiki-more-actions": "Dugang Pa"
+}

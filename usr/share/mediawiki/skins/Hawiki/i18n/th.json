@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horus",
+			"Octahedron80",
+			"Woraponboonkerd"
+		]
+	},
+	"skinname-hawiki": "เวกเตอร์",
+	"hawiki.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
+	"hawiki.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
+	"hawiki-action-addsection": "เพิ่มหัวข้อ",
+	"hawiki-action-delete": "ลบ",
+	"hawiki-action-move": "เปลี่ยนชื่อ",
+	"hawiki-action-protect": "ล็อก",
+	"hawiki-action-undelete": "กู้คืน",
+	"hawiki-action-unprotect": "เปลี่ยนการล็อก",
+	"hawiki-view-create": "สร้าง",
+	"hawiki-view-edit": "แก้ไข",
+	"hawiki-view-history": "ดูประวัติ",
+	"hawiki-view-view": "อ่าน",
+	"hawiki-view-viewsource": "ดูโค้ด",
+	"hawiki-more-actions": "เพิ่มเติม"
+}

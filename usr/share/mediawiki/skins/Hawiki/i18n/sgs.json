@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"hawiki-action-addsection": "Pridietė ožvardėnėma",
+	"hawiki-action-delete": "Trintė",
+	"hawiki-action-move": "Parvadintė",
+	"hawiki-action-protect": "Ožrakintė",
+	"hawiki-action-undelete": "Atkortė",
+	"hawiki-action-unprotect": "Keistė apsauga",
+	"hawiki-view-create": "Padėrbtė",
+	"hawiki-view-edit": "Taisītė",
+	"hawiki-view-history": "Istuorėjė",
+	"hawiki-view-view": "Skaitītė",
+	"hawiki-view-viewsource": "Veizietė kuoda",
+	"hawiki-more-actions": "Dā"
+}

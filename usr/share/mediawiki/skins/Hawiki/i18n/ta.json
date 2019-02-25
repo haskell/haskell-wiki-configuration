@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mayooranathan",
+			"Shanmugamp7",
+			"Surya Prakash.S.A.",
+			"TRYPPN",
+			"Jayarathina"
+		]
+	},
+	"hawiki-action-addsection": "தலைப்பைச் சேர்",
+	"hawiki-action-delete": "நீக்குக",
+	"hawiki-action-move": "நகர்த்தவும்",
+	"hawiki-action-protect": "காக்கவும்",
+	"hawiki-action-undelete": "நீக்கத்தை நிறுத்து",
+	"hawiki-action-unprotect": "காப்பை மாற்று",
+	"hawiki-view-create": "உருவாக்கவும்",
+	"hawiki-view-edit": "தொகு",
+	"hawiki-view-history": "வரலாற்றைக் காட்டவும்",
+	"hawiki-view-view": "படிக்கவும்",
+	"hawiki-view-viewsource": "மூலத்தைக் காட்டவும்",
+	"hawiki-more-actions": "மேலும்"
+}

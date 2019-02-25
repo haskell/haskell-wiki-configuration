@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joystick",
+			"פוילישער",
+			"Har-wradim"
+		]
+	},
+	"skinname-hawiki": "וועקטאר",
+	"hawiki-skin-desc": "מאדערנע ווערסיע פון מאנאבוק מיט פרישן אויסזען און א סך באניצער־פריינדלעכקייט פארבעסערונגען",
+	"hawiki.css": "/* CSS געשטעלט דא ווירקט נאר אויפן וועקטאר סקין */",
+	"hawiki-action-addsection": "צושטעלן טעמע",
+	"hawiki-action-delete": "אויסמעקן",
+	"hawiki-action-move": "באַוועגן",
+	"hawiki-action-protect": "שיצן",
+	"hawiki-action-undelete": "מבטל זיין אויסמעקן",
+	"hawiki-action-unprotect": "ענדערונג באַשיצונג",
+	"hawiki-view-create": "שאַפֿן",
+	"hawiki-view-edit": "רעדאַקטירן",
+	"hawiki-view-history": "ווייזן היסטאָריע",
+	"hawiki-view-view": "לייענען",
+	"hawiki-view-viewsource": "ווײַזן מקור",
+	"hawiki-more-actions": "נאך"
+}

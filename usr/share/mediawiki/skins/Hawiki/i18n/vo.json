@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"hawiki-action-addsection": "Lüükön yegädi",
+	"hawiki-action-delete": "Moükön",
+	"hawiki-action-move": "Topätükön",
+	"hawiki-action-protect": "Jelön",
+	"hawiki-action-undelete": "Sämoükön",
+	"hawiki-action-unprotect": "Votükön jeli",
+	"hawiki-view-create": "Jafön",
+	"hawiki-view-edit": "Redakön",
+	"hawiki-view-history": "Logön jenotemi",
+	"hawiki-view-view": "Reidön",
+	"hawiki-view-viewsource": "Logön fonäti",
+	"hawiki-more-actions": "Pluikos"
+}

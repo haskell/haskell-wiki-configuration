@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gion-andri"
+		]
+	},
+	"hawiki-action-addsection": "Agiuntar chapitel",
+	"hawiki-action-delete": "Stizzar",
+	"hawiki-action-move": "Spustar",
+	"hawiki-action-protect": "Bloccar",
+	"hawiki-action-undelete": "Restituir",
+	"hawiki-action-unprotect": "Midar la protecziun",
+	"hawiki-view-create": "Crear",
+	"hawiki-view-edit": "Modifitgar",
+	"hawiki-view-history": "Cronologia",
+	"hawiki-view-view": "Leger",
+	"hawiki-view-viewsource": "Mussar il code"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sindhu",
+			"Aursani"
+		]
+	},
+	"hawiki-action-addsection": "عنوان ڏيو",
+	"hawiki-action-delete": "ڊاھيو",
+	"hawiki-action-move": "چوريو",
+	"hawiki-action-protect": "تحفظيو",
+	"hawiki-action-undelete": "اڻ‌ڊاهيو",
+	"hawiki-action-unprotect": "تحفظ بدلايو",
+	"hawiki-view-create": "سرجيو",
+	"hawiki-view-edit": "سنواريو",
+	"hawiki-view-history": "سوانح ڏسو",
+	"hawiki-view-view": "پڙهو",
+	"hawiki-view-viewsource": "ڪوڊ ڏسو",
+	"hawiki-more-actions": "وڌيڪ"
+}

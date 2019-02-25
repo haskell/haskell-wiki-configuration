@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kscanne",
+			"Kwekubo",
+			"Moydow",
+			"Tem"
+		]
+	},
+	"skinname-hawiki": "Veicteoir",
+	"hawiki-action-addsection": "Cuir topaic leis",
+	"hawiki-action-delete": "Scrios",
+	"hawiki-action-move": "Athainmnigh",
+	"hawiki-action-protect": "Glasáil",
+	"hawiki-action-undelete": "Díscrios",
+	"hawiki-action-unprotect": "Díghlasáil",
+	"hawiki-view-create": "Cruthaigh",
+	"hawiki-view-edit": "Athraigh an lch seo",
+	"hawiki-view-history": "Féach ar stair",
+	"hawiki-view-view": "Léigh",
+	"hawiki-view-viewsource": "Féach ar fhoinse",
+	"hawiki-more-actions": "Tuilleadh"
+}

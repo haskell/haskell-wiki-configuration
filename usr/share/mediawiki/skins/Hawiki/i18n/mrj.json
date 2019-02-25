@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amdf"
+		]
+	},
+	"hawiki-action-delete": "Карангдаш",
+	"hawiki-action-move": "Лӹмӹм вашталташ",
+	"hawiki-action-protect": "Ӹшӹклӓш",
+	"hawiki-view-create": "Ӹштӓш",
+	"hawiki-view-edit": "Тӧрлӹмӓш",
+	"hawiki-view-history": "Историм анжымаш",
+	"hawiki-view-view": "Лыдмаш",
+	"hawiki-view-viewsource": "Сек пӹтӓриш кодым анжалаш"
+}

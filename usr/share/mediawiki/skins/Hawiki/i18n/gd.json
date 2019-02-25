@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akerbeltz",
+			"GunChleoc"
+		]
+	},
+	"hawiki-skin-desc": "Tionndadh ùr-nodha de MonoBook le dreach ùr air 's iomadh leasachadh air a sho-chleachdachd",
+	"hawiki-action-addsection": "Cuir ris cuspair",
+	"hawiki-action-delete": "Sguab às",
+	"hawiki-action-move": "Gluais",
+	"hawiki-action-protect": "Dìon",
+	"hawiki-action-undelete": "Neo-dhèan an sguabadh às",
+	"hawiki-action-unprotect": "Atharraich an dìon",
+	"hawiki-view-create": "Cruthaich",
+	"hawiki-view-edit": "Deasaich",
+	"hawiki-view-history": "Seall an eachdraidh",
+	"hawiki-view-view": "Leugh",
+	"hawiki-view-viewsource": "Seall an tùs",
+	"hawiki-more-actions": "Barrachd"
+}

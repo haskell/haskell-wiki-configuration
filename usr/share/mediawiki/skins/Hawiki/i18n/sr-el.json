@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Rancher",
+			"Жељко Тодоровић"
+		]
+	},
+	"skinname-hawiki": "Vektorsko",
+	"hawiki.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Vektorsko“ */",
+	"hawiki.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Vektorsko“ */",
+	"hawiki-action-addsection": "Dodaj temu",
+	"hawiki-action-delete": "Obriši",
+	"hawiki-action-move": "Premesti",
+	"hawiki-action-protect": "Zaštiti",
+	"hawiki-action-undelete": "Vrati",
+	"hawiki-action-unprotect": "Promeni zaštitu",
+	"hawiki-view-create": "Napravi",
+	"hawiki-view-edit": "Uredi",
+	"hawiki-view-history": "Istorija",
+	"hawiki-view-view": "Čitaj",
+	"hawiki-view-viewsource": "Izvorni kod",
+	"hawiki-more-actions": "Više"
+}

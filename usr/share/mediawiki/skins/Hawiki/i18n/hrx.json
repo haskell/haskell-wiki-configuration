@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paul Beppler",
+			"Midnight Gambler"
+		]
+	},
+	"hawiki-action-addsection": "Abschnitt hinzufüche",
+	"hawiki-action-delete": "Lösche",
+	"hawiki-action-move": "Verschiebe",
+	"hawiki-action-protect": "Schütz",
+	"hawiki-action-undelete": "Wiederherstelle",
+	"hawiki-action-unprotect": "Seiteschutz ännre",
+	"hawiki-view-create": "Erstell",
+	"hawiki-view-edit": "Beoorbeite",
+	"hawiki-view-history": "Versionsgeschicht",
+	"hawiki-view-view": "Lese",
+	"hawiki-view-viewsource": "Quelltext oonzeiche",
+	"hawiki-more-actions": "Meahr"
+}

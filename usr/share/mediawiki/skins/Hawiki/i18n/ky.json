@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chorobek",
+			"Growingup",
+			"Ztimur",
+			"Викиней",
+			"Janatkg"
+		]
+	},
+	"hawiki-action-addsection": "Тема кошуу",
+	"hawiki-action-delete": "Өчүрүү",
+	"hawiki-action-move": "Аталышын өзгөртүү",
+	"hawiki-action-protect": "Коргоо",
+	"hawiki-action-undelete": "Калыбына келтирүү",
+	"hawiki-action-unprotect": "Коргоону өзгөртүү",
+	"hawiki-view-create": "Түзүү",
+	"hawiki-view-edit": "Оңдоо",
+	"hawiki-view-history": "Тарыхын кароо",
+	"hawiki-view-view": "Окуу",
+	"hawiki-view-viewsource": "Кайнарын кароо",
+	"hawiki-more-actions": "Кененирээк"
+}

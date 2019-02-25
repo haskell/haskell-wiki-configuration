@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Friðrik Bragi Dýrfjörð",
+			"Maxí",
+			"Snævar",
+			"Ævar Arnfjörð Bjarmason",
+			"Sveinn í Felli"
+		]
+	},
+	"skinname-hawiki": "Vektor",
+	"hawiki-skin-desc": "Nútímaútgáfa af MonoBook með fersku útliti og mörgum endurbótum á notagildi",
+	"hawiki.css": "/* Allt CSS sem sett er hér mun  hafa áhrif á alla notendur Vektor-skinnsins. */",
+	"hawiki.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Vektor-skinnsins. */",
+	"hawiki-action-addsection": "Bæta við umræðu",
+	"hawiki-action-delete": "Eyða",
+	"hawiki-action-move": "Færa",
+	"hawiki-action-protect": "Vernda",
+	"hawiki-action-undelete": "Hætta við eyðingu",
+	"hawiki-action-unprotect": "Breyta verndunarstigi",
+	"hawiki-view-create": "Skapa",
+	"hawiki-view-edit": "Breyta",
+	"hawiki-view-history": "Breytingaskrá",
+	"hawiki-view-view": "Lesa",
+	"hawiki-view-viewsource": "Sýna frumkóða",
+	"hawiki-more-actions": "Meira"
+}

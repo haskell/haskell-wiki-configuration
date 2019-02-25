@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Giro720",
+			"Hamilton Abreu",
+			"Malafaya",
+			"Vitorvicentevalente",
+			"Waldir"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Versão moderna do MonoBook com um visual fresco e várias melhorias de usabilidade",
+	"hawiki.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Hawiki */",
+	"hawiki.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Hawiki */",
+	"hawiki-action-addsection": "Adicionar&nbsp;tópico",
+	"hawiki-action-delete": "Eliminar",
+	"hawiki-action-move": "Mover",
+	"hawiki-action-protect": "Proteger",
+	"hawiki-action-undelete": "Restaurar",
+	"hawiki-action-unprotect": "Alterar protecção",
+	"hawiki-view-create": "Criar",
+	"hawiki-view-edit": "Editar",
+	"hawiki-view-history": "Ver histórico",
+	"hawiki-view-view": "Ler",
+	"hawiki-view-viewsource": "Ver fonte",
+	"hawiki-more-actions": "Mais"
+}

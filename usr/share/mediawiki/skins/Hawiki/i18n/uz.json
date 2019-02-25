@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdulla",
+			"Arystanbek",
+			"Casual",
+			"CoderSI",
+			"Sociologist",
+			"Nataev"
+		]
+	},
+	"skinname-hawiki": "Vektor",
+	"hawiki-action-addsection": "Mavzu qoʻshish",
+	"hawiki-action-delete": "O‘chirish",
+	"hawiki-action-move": "Ko‘chirish",
+	"hawiki-action-protect": "Himoyalash",
+	"hawiki-action-undelete": "Tiklash",
+	"hawiki-action-unprotect": "Himoyani oʻzgartirish",
+	"hawiki-view-create": "Yaratish",
+	"hawiki-view-edit": "Tahrirlash",
+	"hawiki-view-history": "Tarix",
+	"hawiki-view-view": "Mutolaa",
+	"hawiki-view-viewsource": "Manbasini koʻrish",
+	"hawiki-more-actions": "Yana"
+}

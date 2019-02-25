@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Liangent",
+			"Liuxinyu970226",
+			"Xiaomingyan",
+			"Cwek"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "提供清新的外观和许多可用性改进的现代版MonoBook",
+	"hawiki.css": "/* 这里放置的CSS将影响使用Hawiki皮肤的用户 */",
+	"hawiki.js": "/* 这里的任何JavaScript将为使用Hawiki皮肤的用户加载 */",
+	"hawiki-action-addsection": "添加话题",
+	"hawiki-action-delete": "删除",
+	"hawiki-action-move": "移动",
+	"hawiki-action-protect": "保护",
+	"hawiki-action-undelete": "还原",
+	"hawiki-action-unprotect": "更改保护",
+	"hawiki-view-create": "创建",
+	"hawiki-view-edit": "编辑",
+	"hawiki-view-history": "查看历史",
+	"hawiki-view-view": "阅读",
+	"hawiki-view-viewsource": "查看源代码",
+	"hawiki-more-actions": "更多"
+}

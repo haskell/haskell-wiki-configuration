@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fadli Idris",
+			"Si Gam Acèh"
+		]
+	},
+	"hawiki-action-addsection": "Tamah bhaih",
+	"hawiki-action-delete": "Sampôh",
+	"hawiki-action-move": "Pupinah",
+	"hawiki-action-protect": "Peulindông",
+	"hawiki-action-undelete": "Bateuë sampôh",
+	"hawiki-action-unprotect": "Gantoe neulindông",
+	"hawiki-view-create": "Peugöt",
+	"hawiki-view-edit": "Andam",
+	"hawiki-view-history": "Eu riwayat",
+	"hawiki-view-view": "Beuët",
+	"hawiki-view-viewsource": "Eu nè",
+	"hawiki-more-actions": "Lom"
+}

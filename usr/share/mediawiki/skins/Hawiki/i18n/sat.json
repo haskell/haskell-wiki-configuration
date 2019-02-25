@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albinus",
+			"Samar88",
+			"Srabony90"
+		]
+	},
+	"hawiki-action-addsection": "Asol katha joṛaome",
+	"hawiki-action-delete": "Giḍi",
+	"hawiki-action-move": "Ocoḱ́me",
+	"hawiki-action-protect": "Bańcao",
+	"hawiki-action-undelete": "Bań getgiḍi",
+	"hawiki-action-unprotect": "Bodol rukhiyạ",
+	"hawiki-view-create": "Tearme",
+	"hawiki-view-edit": "So̠mpado̠n",
+	"hawiki-view-history": "Jạṛ ńelme",
+	"hawiki-view-view": "Paṛhaḱme",
+	"hawiki-view-viewsource": "Ńamoḱaḱ ńelme"
+}

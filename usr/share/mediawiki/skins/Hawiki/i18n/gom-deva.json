@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"Pooja tople",
+			"Sanket.prabhu26",
+			"Supriya kankumbikar",
+			"The Discoverer"
+		]
+	},
+	"hawiki-action-addsection": "माथाळो ज़ोड",
+	"hawiki-action-delete": "काडून उडयात",
+	"hawiki-action-move": "दुसरेकडे व्हरात",
+	"hawiki-action-protect": "राख",
+	"hawiki-view-create": "रोच",
+	"hawiki-view-edit": "बदल",
+	"hawiki-view-history": "इतिहास पळेयात",
+	"hawiki-view-view": "वाचचें",
+	"hawiki-view-viewsource": "उगम पळेयात",
+	"hawiki-more-actions": "आनीक"
+}

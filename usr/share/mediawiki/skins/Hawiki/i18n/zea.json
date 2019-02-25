@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"hawiki-action-addsection": "Voeg kopje toe",
+	"hawiki-action-delete": "Wissen",
+	"hawiki-action-move": "Verschuuf",
+	"hawiki-action-protect": "Bescherm",
+	"hawiki-action-undelete": "Plaets truhhe",
+	"hawiki-action-unprotect": "Beveiligienge anpass'n",
+	"hawiki-view-create": "Anmaeken",
+	"hawiki-view-edit": "Bewerk",
+	"hawiki-view-history": "Geschiedenisse bekiek'n",
+	"hawiki-view-view": "Lezen",
+	"hawiki-view-viewsource": "Brontekst bekieken"
+}

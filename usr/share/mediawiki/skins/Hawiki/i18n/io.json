@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"hawiki-action-addsection": "Adjuntar topiko",
+	"hawiki-action-delete": "Efacar",
+	"hawiki-action-move": "Movar",
+	"hawiki-action-protect": "Protektar",
+	"hawiki-action-undelete": "Rekuperar",
+	"hawiki-action-unprotect": "Desprotektar",
+	"hawiki-view-create": "Krear",
+	"hawiki-view-edit": "Redaktar",
+	"hawiki-view-history": "Vidar versionaro",
+	"hawiki-view-view": "Lektar",
+	"hawiki-view-viewsource": "Vidar fonto"
+}

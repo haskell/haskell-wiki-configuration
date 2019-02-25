@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adamsa123",
+			"Amire80",
+			"Celekan",
+			"Siklawy",
+			"GR44 Luc",
+			"SamGamgee",
+			"SmartNart12",
+			"Inyzh",
+			"Highlander45temp"
+		]
+	},
+	"hawiki-action-addsection": "Ӏофтхьабз",
+	"hawiki-action-delete": "ТегъэкӀ",
+	"hawiki-action-move": "Хьы",
+	"hawiki-action-protect": "Иухъумэ",
+	"hawiki-action-undelete": "УмылъэкӀ",
+	"hawiki-action-unprotect": "Умыухъумэ",
+	"hawiki-view-create": "КъэшӀ",
+	"hawiki-view-edit": "ХэӀэзыхь",
+	"hawiki-view-history": "Тарихъым eплъ",
+	"hawiki-view-view": "Едж",
+	"hawiki-view-viewsource": "Еплъ лъапсэм",
+	"hawiki-more-actions": "Джыри"
+}

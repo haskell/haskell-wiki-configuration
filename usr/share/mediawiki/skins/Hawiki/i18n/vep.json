@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский",
+			"Sebranik"
+		]
+	},
+	"hawiki-action-addsection": "Ližada tem",
+	"hawiki-action-delete": "Čuta poiš",
+	"hawiki-action-move": "Udesnimitada",
+	"hawiki-action-protect": "Kaita",
+	"hawiki-action-undelete": "Pördutada",
+	"hawiki-action-unprotect": "Toižetada kaičend",
+	"hawiki-view-create": "Säta",
+	"hawiki-view-edit": "Redaktiruida",
+	"hawiki-view-history": "Kacta istorii",
+	"hawiki-view-view": "Lugeda",
+	"hawiki-view-viewsource": "Kacta purtkehe",
+	"hawiki-more-actions": "Völ"
+}

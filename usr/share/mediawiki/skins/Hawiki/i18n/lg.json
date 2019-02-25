@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizito"
+		]
+	},
+	"hawiki-action-addsection": "Tandikawo emboozi endala",
+	"hawiki-action-delete": "Gyawo olupapula luno",
+	"hawiki-action-move": "Simbuliza",
+	"hawiki-action-protect": "Ssiba",
+	"hawiki-action-undelete": "Zawo",
+	"hawiki-action-unprotect": "Kyusa ebikugizo",
+	"hawiki-view-create": "Lukolewo",
+	"hawiki-view-edit": "Kyusa",
+	"hawiki-view-history": "Ennanda ya fayiro eno",
+	"hawiki-view-view": "Soma",
+	"hawiki-view-viewsource": "Kebera obulambike obw'ennono obw'olupapula luno"
+}

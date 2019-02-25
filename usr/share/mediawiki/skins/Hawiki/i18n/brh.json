@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imdadb"
+		]
+	},
+	"hawiki-action-addsection": "Púskun sarhál",
+	"hawiki-action-delete": "Mesa",
+	"hawiki-action-move": "Surif",
+	"hawiki-action-protect": "Rakk",
+	"hawiki-view-create": "Biná",
+	"hawiki-view-edit": "Radbadal",
+	"hawiki-view-history": "Lekav e ur",
+	"hawiki-view-view": "Xuán",
+	"hawiki-view-viewsource": "Bumpad e ur",
+	"hawiki-more-actions": "Pen"
+}

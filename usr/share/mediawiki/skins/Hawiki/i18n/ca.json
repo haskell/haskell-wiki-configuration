@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Anskar",
+			"Calak",
+			"Paucabot",
+			"Ssola",
+			"Vriullop",
+			"Toniher",
+			"Fitoschido"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Versió moderna del MonoBook amb un nou aspesctes i moltes millores en la usabilitat",
+	"hawiki-action-addsection": "Afegeix un tema",
+	"hawiki-action-delete": "Esborra",
+	"hawiki-action-move": "Reanomena",
+	"hawiki-action-protect": "Protegeix",
+	"hawiki-action-undelete": "Restaura",
+	"hawiki-action-unprotect": "Desprotegeix",
+	"hawiki-view-create": "Crea",
+	"hawiki-view-edit": "Modifica",
+	"hawiki-view-history": "Mostra l’historial",
+	"hawiki-view-view": "Mostra",
+	"hawiki-view-viewsource": "Mostra el codi",
+	"hawiki-more-actions": "Més"
+}

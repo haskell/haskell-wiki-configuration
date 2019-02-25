@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arifin.wijaya",
+			"Bennylin",
+			"Farras",
+			"Iwan Novirion",
+			"Rex"
+		]
+	},
+	"skinname-hawiki": "Vektor",
+	"hawiki-skin-desc": "Versi modern dari MonoBook dengan tampilan segar dan banyak perbaikan kegunaan",
+	"hawiki.css": "/* CSS yang ada di sini akan diterapkan pada kulit Vektor. */",
+	"hawiki.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Hawiki */",
+	"hawiki-action-addsection": "Bagian baru",
+	"hawiki-action-delete": "Hapus",
+	"hawiki-action-move": "Pindahkan",
+	"hawiki-action-protect": "Lindungi",
+	"hawiki-action-undelete": "Pembatalan penghapusan",
+	"hawiki-action-unprotect": "Ubah perlindungan",
+	"hawiki-view-create": "Buat",
+	"hawiki-view-edit": "Sunting",
+	"hawiki-view-history": "Versi terdahulu",
+	"hawiki-view-view": "Baca",
+	"hawiki-view-viewsource": "Lihat sumber",
+	"hawiki-more-actions": "Lainnya"
+}

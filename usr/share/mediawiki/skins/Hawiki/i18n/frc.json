@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebe123",
+			"Hangmanwa7id"
+		]
+	},
+	"hawiki-action-delete": "Supprimer",
+	"hawiki-action-move": "Renommer",
+	"hawiki-action-protect": "Protéger",
+	"hawiki-view-create": "Créer",
+	"hawiki-view-edit": "Changer",
+	"hawiki-view-view": "Lire",
+	"hawiki-view-viewsource": "Regarder la source",
+	"hawiki-more-actions": "Plus"
+}

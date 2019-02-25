@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paulu"
+		]
+	},
+	"hawiki-action-addsection": "Aghjunghje discussione",
+	"hawiki-action-delete": "Supprimà",
+	"hawiki-action-move": "Cullucà",
+	"hawiki-action-protect": "Pruteghje",
+	"hawiki-action-unprotect": "Cambià a prutezzione",
+	"hawiki-view-create": "Creà",
+	"hawiki-view-edit": "Mudificà",
+	"hawiki-view-history": "Vede a cronolugia",
+	"hawiki-view-view": "Leghje",
+	"hawiki-view-viewsource": "Vede a surghjente"
+}

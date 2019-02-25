@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktkaushik",
+			"Nayvik",
+			"VASANTH S.N.",
+			"Omshivaprakash"
+		]
+	},
+	"hawiki-action-addsection": "ವಿಷಯ ಸೇರಿಸಿ",
+	"hawiki-action-delete": "ಅಳಿಸು",
+	"hawiki-action-move": "ಸ್ಥಳಾಂತರಿಸಿ",
+	"hawiki-action-protect": "ಸಂರಕ್ಷಿಸು",
+	"hawiki-action-undelete": "ಅಳಿಸಬೇಡ",
+	"hawiki-action-unprotect": "ರಕ್ಷಣೆಯನ್ನು ಬದಲಾವಣೆ",
+	"hawiki-view-create": "ಸೃಷ್ಟಿಸು",
+	"hawiki-view-edit": "ಸಂಪಾದಿಸಿ",
+	"hawiki-view-history": "ಇತಿಹಾಸವನ್ನು ನೋಡಿ",
+	"hawiki-view-view": "ಓದು",
+	"hawiki-view-viewsource": "ಆಕರ ವೀಕ್ಷಿಸು",
+	"hawiki-more-actions": "ಇನ್ನಷ್ಟು"
+}

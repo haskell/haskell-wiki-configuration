@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"hawiki-action-addsection": "Abschnitt zuefiege",
+	"hawiki-action-delete": "Lesche",
+	"hawiki-action-move": "Verschiebe",
+	"hawiki-action-protect": "Schitze",
+	"hawiki-action-undelete": "Widerhärstelle",
+	"hawiki-action-unprotect": "Syteschutz ändere",
+	"hawiki-view-create": "Aalege",
+	"hawiki-view-edit": "Bearbeite",
+	"hawiki-view-history": "Versionsgschicht",
+	"hawiki-view-view": "Läse",
+	"hawiki-view-viewsource": "Quälltext aaluege",
+	"hawiki-more-actions": "Meh"
+}

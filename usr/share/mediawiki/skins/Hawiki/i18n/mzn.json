@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr",
+			"محک"
+		]
+	},
+	"hawiki-action-addsection": "ترنه گپ بزوئن",
+	"hawiki-action-delete": "پاک هاکردن",
+	"hawiki-action-move": "دکش هاکردن",
+	"hawiki-action-protect": "زلفن بزوئن",
+	"hawiki-action-undelete": "دباره بنویشته بیّن",
+	"hawiki-action-unprotect": "زلفن عوض هاکردن",
+	"hawiki-view-create": "بساتن",
+	"hawiki-view-edit": "دچی‌ین",
+	"hawiki-view-history": "تاریخچه ره بَدی‌ین",
+	"hawiki-view-view": "بخوندستن",
+	"hawiki-view-viewsource": "ونه منبع ره هارشائن",
+	"hawiki-more-actions": "ویشته"
+}

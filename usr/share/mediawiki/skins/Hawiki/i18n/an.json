@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl",
+			"Carlos Cristia"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki.css": "/* Os estilos CSS colocaus aquí s'aplicarán ta totz os usuarios que faigan servir l'apariencia Hawiki */",
+	"hawiki.js": "/* Qualsiquier codigo Javascript escrito aquí se cargará ta totz os usuarios que usen a piel Hawiki */",
+	"hawiki-action-addsection": "Adhibir nueva sección",
+	"hawiki-action-delete": "Borrar",
+	"hawiki-action-move": "Tresladar",
+	"hawiki-action-protect": "Protecher",
+	"hawiki-action-undelete": "Restaurar",
+	"hawiki-action-unprotect": "Cambiar protección",
+	"hawiki-view-create": "Creyar",
+	"hawiki-view-edit": "Editar",
+	"hawiki-view-history": "Amostrar l'historial",
+	"hawiki-view-view": "Leyer",
+	"hawiki-view-viewsource": "Veyer o codigo fuent",
+	"hawiki-more-actions": "Mas"
+}

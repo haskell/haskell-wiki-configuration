@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt",
+			"Waihorace",
+			"Yueman"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "MonoBook嘅摩登版，有新嘅樣，又有好多功能改進",
+	"hawiki.css": "/* 響呢度放 CSS 碼去改用戶用嘅域達畫面 */",
+	"hawiki.js": "/* 響每一次個頁面載入時，用域達畫面嘅用戶都會載入呢度任何嘅JavaScript */",
+	"hawiki-action-addsection": "加主題",
+	"hawiki-action-delete": "剷走",
+	"hawiki-action-move": "搬",
+	"hawiki-action-protect": "保護",
+	"hawiki-action-undelete": "取消剷走",
+	"hawiki-action-unprotect": "改保護",
+	"hawiki-view-create": "開",
+	"hawiki-view-edit": "改",
+	"hawiki-view-history": "睇吓歷史",
+	"hawiki-view-view": "閱",
+	"hawiki-view-viewsource": "睇吓原始碼",
+	"hawiki-more-actions": "更多"
+}

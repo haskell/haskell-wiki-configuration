@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moha",
+			"Tifinaghes",
+			"ⵕⴰⵊⵉ"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
+	"hawiki-action-delete": "ⵓⴽⵓⵙ",
+	"hawiki-action-move": "ⵙⵎⵓⵜⵜⵉ",
+	"hawiki-action-undelete": "ⵙⵙⵓⵖⴰⵍ ⵓⴽⵓⵙ",
+	"hawiki-action-unprotect": "ⴱⴷⴷⴻⵍ ⵜⴰⵙⵜⴰⵏⵜ",
+	"hawiki-view-create": "ⴰⵔⴰ",
+	"hawiki-view-edit": "ⴱⴷⴷⴻⵍ",
+	"hawiki-view-history": "ⵥⵕ ⴰⵎⵣⵔⵓⵢ",
+	"hawiki-view-view": "ⵖⵔ",
+	"hawiki-view-viewsource": "ⵥⵕ ⴰⵖⴱⴰⵍⵓ",
+	"hawiki-more-actions": "ⵓⴳⴳⴰⵔ"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kernoweger",
+			"Kw-Moon",
+			"Nrowe"
+		]
+	},
+	"hawiki-action-addsection": "Keworra testen",
+	"hawiki-action-delete": "Dilea",
+	"hawiki-action-move": "Gwaya",
+	"hawiki-action-protect": "Difres",
+	"hawiki-action-undelete": "Disdhilea",
+	"hawiki-action-unprotect": "Chanjya difresans",
+	"hawiki-view-create": "Gwruthyl",
+	"hawiki-view-edit": "Chanjya",
+	"hawiki-view-history": "Gweles an istori",
+	"hawiki-view-view": "Redya",
+	"hawiki-view-viewsource": "Gweles an bennfenten",
+	"hawiki-more-actions": "Moy"
+}

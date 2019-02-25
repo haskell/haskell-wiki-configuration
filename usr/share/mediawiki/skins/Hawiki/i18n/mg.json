@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"hawiki-action-addsection": "Hanampy lohahevitra",
+	"hawiki-action-delete": "Fafana",
+	"hawiki-action-move": "Hanolo anarana",
+	"hawiki-action-protect": "Arovy",
+	"hawiki-action-undelete": "Avereno",
+	"hawiki-action-unprotect": "Hanala ny fiarovana",
+	"hawiki-view-create": "Foronona",
+	"hawiki-view-edit": "Hanova",
+	"hawiki-view-history": "Hijery ny tantara",
+	"hawiki-view-view": "Hamaky",
+	"hawiki-view-viewsource": "Hijery fango",
+	"hawiki-more-actions": "Be kokoa"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"hawiki-action-addsection": "Temu pśidaś",
+	"hawiki-action-delete": "Wulašowaś",
+	"hawiki-action-move": "Pśesunuś",
+	"hawiki-action-protect": "Šćitaś",
+	"hawiki-action-undelete": "Wótnowiś",
+	"hawiki-action-unprotect": "Šćit změniś",
+	"hawiki-view-create": "Napóraś",
+	"hawiki-view-edit": "Wobźěłaś",
+	"hawiki-view-history": "Wersije a awtory",
+	"hawiki-view-view": "Cytaś",
+	"hawiki-view-viewsource": "Žrědło se woglědaś"
+}

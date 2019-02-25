@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bhawani Gautam",
+			"RajeshPandey",
+			"सरोज कुमार ढकाल",
+			"बिप्लब आनन्द",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"skinname-hawiki": "भेक्टर",
+	"hawiki.css": "/* यहाँ राखिएको CSS ले भेक्टर स्किनको प्रयोगकर्ताहरूलाई प्रभावित गर्ने छ  */",
+	"hawiki-action-addsection": "विषय थप्नुहोस",
+	"hawiki-action-delete": "हटाउने",
+	"hawiki-action-move": "सार्ने",
+	"hawiki-action-protect": "सुरक्षित गर्ने",
+	"hawiki-action-undelete": "हटाएको रद्द गर्ने",
+	"hawiki-action-unprotect": "सुरक्षा परिवर्तन गर्ने",
+	"hawiki-view-create": "सृजना गर्ने",
+	"hawiki-view-edit": "सम्पादन",
+	"hawiki-view-history": "इतिहास हेर्ने",
+	"hawiki-view-view": "पढ्ने",
+	"hawiki-view-viewsource": "स्रोत हेर्ने",
+	"hawiki-more-actions": "थप"
+}

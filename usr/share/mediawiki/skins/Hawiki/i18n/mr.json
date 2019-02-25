@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaajawa",
+			"V.narsikar"
+		]
+	},
+	"skinname-hawiki": "सदिश",
+	"hawiki-skin-desc": "मोनोबुकची आधुनिक आवृत्ती टवटवीत दिसण्यासह व अनेक वापर सुधारणा असलेली",
+	"hawiki-action-addsection": "विषय जोडा",
+	"hawiki-action-delete": "वगळा",
+	"hawiki-action-move": "स्थानांतरण",
+	"hawiki-action-protect": "सुरक्षित करा",
+	"hawiki-action-undelete": "वगळलेले पुनर्स्थापित करा",
+	"hawiki-action-unprotect": "सुरक्षितता बदला",
+	"hawiki-view-create": "तयार करा",
+	"hawiki-view-edit": "संपादन",
+	"hawiki-view-history": "इतिहास पहा",
+	"hawiki-view-view": "वाचा",
+	"hawiki-view-viewsource": "स्रोत पहा",
+	"hawiki-more-actions": "अधिक"
+}

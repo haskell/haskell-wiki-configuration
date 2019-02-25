@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"Sinopeus",
+			"ZaDiak"
+		]
+	},
+	"hawiki-action-delete": "Σβήσον",
+	"hawiki-action-move": "Ετεροχλάεμαν",
+	"hawiki-action-protect": "Ασπάλιγμαν",
+	"hawiki-action-undelete": "Κλώσιμον",
+	"hawiki-action-unprotect": "Άνοιγμαν",
+	"hawiki-view-create": "Ποίσον",
+	"hawiki-view-edit": "Άλλαξον",
+	"hawiki-view-history": "Τερέστεν ιστορίαν",
+	"hawiki-view-view": "Δεάβασον",
+	"hawiki-view-viewsource": "Τερέστεν κωδικόν"
+}

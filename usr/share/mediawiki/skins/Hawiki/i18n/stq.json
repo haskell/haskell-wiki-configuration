@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"hawiki-action-addsection": "Ousnit bietouföigje",
+	"hawiki-action-delete": "Läskje",
+	"hawiki-action-move": "Ferskuuwe",
+	"hawiki-action-protect": "Skutsje",
+	"hawiki-action-undelete": "Wierhäärstaale",
+	"hawiki-action-unprotect": "Siedenskuts annerje",
+	"hawiki-view-create": "Moakje",
+	"hawiki-view-edit": "Beoarbaidje",
+	"hawiki-view-history": "Versionsgeskichte",
+	"hawiki-view-view": "Leese",
+	"hawiki-view-viewsource": "Wältext bekiekje"
+}

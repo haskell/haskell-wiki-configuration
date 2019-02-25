@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"Nemo bis"
+		]
+	},
+	"skinname-hawiki": "動力",
+	"hawiki.css": "/* 此之 CSS 用於動力面之簿也 */",
+	"hawiki.js": "/* 此之JavaScript將載於用動力面之簿 */",
+	"hawiki-action-addsection": "入題",
+	"hawiki-action-delete": "刪",
+	"hawiki-action-move": "遷",
+	"hawiki-action-protect": "緘",
+	"hawiki-action-undelete": "覽刪",
+	"hawiki-action-unprotect": "啟",
+	"hawiki-view-create": "立",
+	"hawiki-view-edit": "纂",
+	"hawiki-view-history": "覽史",
+	"hawiki-view-view": "閱",
+	"hawiki-view-viewsource": "覽源",
+	"hawiki-more-actions": "益多"
+}

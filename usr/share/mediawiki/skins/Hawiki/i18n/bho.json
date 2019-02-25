@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ganesh",
+			"Nepaboy",
+			"SatyamMishra"
+		]
+	},
+	"hawiki-action-addsection": "बिसय जोड़ीं",
+	"hawiki-action-delete": "मिटाईं",
+	"hawiki-action-move": "स्थानांतरण",
+	"hawiki-action-protect": "संरक्षित करीं",
+	"hawiki-action-undelete": "मत मिटाईं",
+	"hawiki-action-unprotect": "सुरक्षा बदलीं",
+	"hawiki-view-create": "बनाईं",
+	"hawiki-view-edit": "संपादन",
+	"hawiki-view-history": "इतिहास देखीं",
+	"hawiki-view-view": "पढ़ीं",
+	"hawiki-view-viewsource": "स्रोत देखीं",
+	"hawiki-more-actions": "अधिका"
+}

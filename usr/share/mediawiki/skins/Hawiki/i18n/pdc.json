@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xqt"
+		]
+	},
+	"hawiki-action-delete": "Verwische",
+	"hawiki-action-move": "Ziehe",
+	"hawiki-action-protect": "Schitze",
+	"hawiki-view-create": "Schtaerte",
+	"hawiki-view-edit": "Ennere",
+	"hawiki-view-history": "Gschicht zeige",
+	"hawiki-view-view": "Lese"
+}

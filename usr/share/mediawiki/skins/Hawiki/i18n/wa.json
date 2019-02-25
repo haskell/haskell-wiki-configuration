@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srtxg"
+		]
+	},
+	"hawiki-action-addsection": "Radjouter on sudjet",
+	"hawiki-action-delete": "Disfacer",
+	"hawiki-action-move": "Displaecî",
+	"hawiki-action-protect": "Protedjî",
+	"hawiki-action-undelete": "Rapexhî",
+	"hawiki-action-unprotect": "Candjî l' protedjaedje",
+	"hawiki-view-create": "Ahiver",
+	"hawiki-view-edit": "Candjî",
+	"hawiki-view-history": "Vey l' istwere",
+	"hawiki-view-view": "Lére",
+	"hawiki-view-viewsource": "Vey côde sourdant",
+	"hawiki-more-actions": "Di pus"
+}

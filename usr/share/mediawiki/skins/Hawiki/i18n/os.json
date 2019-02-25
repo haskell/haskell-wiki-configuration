@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amikeco",
+			"Bouron"
+		]
+	},
+	"hawiki-action-addsection": "Нæуæг ныхас бакæнын",
+	"hawiki-action-delete": "Схафын",
+	"hawiki-action-move": "Ном ивын",
+	"hawiki-action-protect": "Сæхгæнын",
+	"hawiki-action-undelete": "Рацаразын",
+	"hawiki-action-unprotect": "Ивын хъахъхъæд",
+	"hawiki-view-create": "Скæнын",
+	"hawiki-view-edit": "Ивын",
+	"hawiki-view-history": "Истори",
+	"hawiki-view-view": "Кæсын",
+	"hawiki-view-viewsource": "Код кæсын",
+	"hawiki-more-actions": "Фылдæр"
+}

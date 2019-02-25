@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mostafadaneshvar",
+			"RigiMahnoor"
+		]
+	},
+	"hawiki-action-addsection": "هور کتن عنوان",
+	"hawiki-action-delete": "زورگ",
+	"hawiki-action-move": "جاه په جاه",
+	"hawiki-action-protect": "حفاظت",
+	"hawiki-action-undelete": "ترینگ",
+	"hawiki-action-unprotect": "پروتکشنء ٹگل بدئ",
+	"hawiki-view-create": "شرکتن",
+	"hawiki-view-edit": "اصلاح",
+	"hawiki-view-history": "چارتن تاریح",
+	"hawiki-view-view": "وانتن",
+	"hawiki-view-viewsource": "پیشدارگ بن جاه",
+	"hawiki-more-actions": "گیشتر"
+}

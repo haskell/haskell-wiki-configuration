@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ker",
+			"Pikne",
+			"WikedKentaur"
+		]
+	},
+	"skinname-hawiki": "Vektor",
+	"hawiki-skin-desc": "MonoBooki uuem versioon värskema väljanägemise ja mitme kasutajasõbralikuma täiendusega",
+	"hawiki.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Vektori-kujunduse kasutajaid. */",
+	"hawiki.js": "/* Siin asuv JavaScript laaditakse kõigi Vektori-kujunduse kasutajate jaoks. */",
+	"hawiki-action-addsection": "Lisa teema",
+	"hawiki-action-delete": "Kustuta",
+	"hawiki-action-move": "Teisalda",
+	"hawiki-action-protect": "Kaitse",
+	"hawiki-action-undelete": "Taasta",
+	"hawiki-action-unprotect": "Muuda kaitset",
+	"hawiki-view-create": "Loo",
+	"hawiki-view-edit": "Muuda",
+	"hawiki-view-history": "Näita ajalugu",
+	"hawiki-view-view": "Vaata",
+	"hawiki-view-viewsource": "Vaata lähteteksti",
+	"hawiki-more-actions": "Veel"
+}

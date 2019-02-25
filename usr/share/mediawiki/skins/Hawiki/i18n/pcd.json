@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geoleplubo"
+		]
+	},
+	"hawiki-action-addsection": "Rajouter un sujeut",
+	"hawiki-action-delete": "Défacer",
+	"hawiki-action-move": "Canger ch'nom",
+	"hawiki-action-protect": "Garantir",
+	"hawiki-action-undelete": "N'poin défacher",
+	"hawiki-action-unprotect": "Canger l'garantie",
+	"hawiki-view-create": "Créer",
+	"hawiki-view-edit": "Éditer",
+	"hawiki-view-history": "Vir l'histoère",
+	"hawiki-view-view": "Lire",
+	"hawiki-view-viewsource": "Vir l'source"
+}

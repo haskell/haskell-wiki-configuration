@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Capisano",
+			"Oxyzen"
+		]
+	},
+	"hawiki-action-addsection": "Magdugang sang topiko",
+	"hawiki-action-delete": "Panason",
+	"hawiki-action-move": "Isdogon",
+	"hawiki-action-protect": "Protektahan",
+	"hawiki-action-undelete": "Indi pag panason",
+	"hawiki-action-unprotect": "Islan ang proteksyon",
+	"hawiki-view-create": "Ubrahon",
+	"hawiki-view-edit": "Bag-uhon",
+	"hawiki-view-history": "Ipakita ang kasaysayan",
+	"hawiki-view-view": "Basahon",
+	"hawiki-view-viewsource": "Lantawon ang ginhalinan"
+}

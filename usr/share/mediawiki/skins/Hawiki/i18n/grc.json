@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista",
+			"Gts-tg"
+		]
+	},
+	"hawiki-action-addsection": "Θέμα προστιθέναι",
+	"hawiki-action-delete": "Σβεννύναι",
+	"hawiki-action-move": "Κινεῖν",
+	"hawiki-action-protect": "Φυλάττειν",
+	"hawiki-action-undelete": "Ἀποκαθιστάναι",
+	"hawiki-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"hawiki-view-create": "Ποιεῖν",
+	"hawiki-view-edit": "Μεταγράφειν",
+	"hawiki-view-history": "Ἱστορίαν ὁρᾶν",
+	"hawiki-view-view": "Ἀναγνῶναι",
+	"hawiki-view-viewsource": "Ὁρᾶν τὴν πηγήν",
+	"hawiki-more-actions": "Πλεῖον"
+}

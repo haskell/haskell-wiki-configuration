@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diupwijk",
+			"EileenSanda"
+		]
+	},
+	"hawiki-skin-desc": "Moderna versión af MonoBook við frískari útsjónd og nógvum nýtslubetringum",
+	"hawiki-action-addsection": "Nýtt evni",
+	"hawiki-action-delete": "Strika",
+	"hawiki-action-move": "Flyt",
+	"hawiki-action-protect": "Friða",
+	"hawiki-action-undelete": "Endurstovna",
+	"hawiki-action-unprotect": "Broyt verju",
+	"hawiki-view-create": "Stovna",
+	"hawiki-view-edit": "Rætta",
+	"hawiki-view-history": "Vís søgu",
+	"hawiki-view-view": "Les",
+	"hawiki-view-viewsource": "Vís keldu",
+	"hawiki-more-actions": "Meira"
+}

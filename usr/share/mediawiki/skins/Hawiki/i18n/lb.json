@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Modern Versioun vu Monobook mat frëschem Look a ville Verbesserunge vun der Benotzerfrëndlechkeet",
+	"hawiki.css": "/* CSS deen hei steet huet Afloss op all Benotzer vum Ausgesinn Hawiki */",
+	"hawiki.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn Hawiki benotzt */",
+	"hawiki-action-addsection": "Sujet derbäisetzen",
+	"hawiki-action-delete": "Läschen",
+	"hawiki-action-move": "Réckelen",
+	"hawiki-action-protect": "Spären",
+	"hawiki-action-undelete": "Restauréieren",
+	"hawiki-action-unprotect": "Spär änneren",
+	"hawiki-view-create": "Uleeën",
+	"hawiki-view-edit": "Änneren",
+	"hawiki-view-history": "Versioune weisen",
+	"hawiki-view-view": "Liesen",
+	"hawiki-view-viewsource": "Quellcode weisen",
+	"hawiki-more-actions": "Méi"
+}

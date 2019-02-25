@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"hawiki-skin-desc": "Modern werjuun faan Monobook mä frisk skak an föl muar mögelkhaiden",
+	"hawiki-action-addsection": "Nei kirew began",
+	"hawiki-action-delete": "Strik",
+	"hawiki-action-move": "Fersküüw",
+	"hawiki-action-protect": "Seekre",
+	"hawiki-action-undelete": "Weder iinstel",
+	"hawiki-action-unprotect": "Sidjenseekerhaid",
+	"hawiki-view-create": "Maage",
+	"hawiki-view-edit": "Bewerke",
+	"hawiki-view-history": "Ferluup uunluke",
+	"hawiki-view-view": "Lees",
+	"hawiki-view-viewsource": "Kweltekst uunluke",
+	"hawiki-more-actions": "Muar"
+}

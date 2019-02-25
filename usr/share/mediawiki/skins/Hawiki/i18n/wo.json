@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"hawiki-action-addsection": "Yokkuw tëriit",
+	"hawiki-action-delete": "Far",
+	"hawiki-action-move": "Tuddewaat",
+	"hawiki-action-protect": "Aar",
+	"hawiki-action-undelete": "Delloowaat",
+	"hawiki-action-unprotect": "Aaradi",
+	"hawiki-view-create": "Sos",
+	"hawiki-view-edit": "Soppi",
+	"hawiki-view-history": "Wone jaar-jaaram",
+	"hawiki-view-view": "Jàng",
+	"hawiki-view-viewsource": "Wone gongikuwaayam",
+	"hawiki-more-actions": "Yeneen"
+}

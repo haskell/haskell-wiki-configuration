@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huuchin"
+		]
+	},
+	"hawiki-action-addsection": "Төриг немх",
+	"hawiki-action-delete": "Һарһх",
+	"hawiki-action-move": "Көндәх",
+	"hawiki-action-protect": "Харсх",
+	"hawiki-action-undelete": "Һарһх биш",
+	"hawiki-action-unprotect": "Харсх биш",
+	"hawiki-view-create": "Бүтәх",
+	"hawiki-view-edit": "Чиклх",
+	"hawiki-view-history": "Тууҗин хәләвр",
+	"hawiki-view-view": "Умшлһн",
+	"hawiki-view-viewsource": "Темдгллһнә хәләвр",
+	"hawiki-more-actions": "Нань"
+}

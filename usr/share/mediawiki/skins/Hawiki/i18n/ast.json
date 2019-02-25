@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Versión moderna de MonoBook, con un aspeutu frescu y munchos ameyoramientos d'usabilidá",
+	"hawiki.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Hawiki */",
+	"hawiki.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Hawiki */",
+	"hawiki-action-addsection": "Amestar seición",
+	"hawiki-action-delete": "Desaniciar",
+	"hawiki-action-move": "Treslladar",
+	"hawiki-action-protect": "Protexer",
+	"hawiki-action-undelete": "Restaurar",
+	"hawiki-action-unprotect": "Camudar la proteición",
+	"hawiki-view-create": "Crear",
+	"hawiki-view-edit": "Editar",
+	"hawiki-view-history": "Ver historial",
+	"hawiki-view-view": "Lleer",
+	"hawiki-view-viewsource": "Ver fonte",
+	"hawiki-more-actions": "Más"
+}

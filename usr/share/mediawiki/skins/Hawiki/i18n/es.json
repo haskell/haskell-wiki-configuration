@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Crazymadlover",
+			"Dalton2",
+			"Fitoschido",
+			"Locos epraix",
+			"Manuelt15",
+			"MarcoAurelio",
+			"Miguel2706",
+			"Platonides",
+			"Vivaelcelta"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Versión moderna de MonoBook, con un aspecto actualizado y muchas mejoras de usabilidad",
+	"hawiki.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia \"Hawiki\" */",
+	"hawiki.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Hawiki */",
+	"hawiki-action-addsection": "Sección nueva",
+	"hawiki-action-delete": "Borrar",
+	"hawiki-action-move": "Trasladar",
+	"hawiki-action-protect": "Proteger",
+	"hawiki-action-undelete": "Restaurar",
+	"hawiki-action-unprotect": "Cambiar protección",
+	"hawiki-view-create": "Crear",
+	"hawiki-view-edit": "Editar",
+	"hawiki-view-history": "Ver historial",
+	"hawiki-view-view": "Leer",
+	"hawiki-view-viewsource": "Ver código",
+	"hawiki-more-actions": "Más"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adi Mayndra",
+			"BASAbali"
+		]
+	},
+	"hawiki-action-addsection": "imbuhin indik wacana",
+	"hawiki-action-delete": "ngapus",
+	"hawiki-action-move": "kisidang",
+	"hawiki-action-protect": "nyaga",
+	"hawiki-view-create": "ngawe",
+	"hawiki-view-edit": "mecikang",
+	"hawiki-view-history": "indik sane lintang",
+	"hawiki-view-view": "Waca",
+	"hawiki-view-viewsource": "cingak witnyane"
+}

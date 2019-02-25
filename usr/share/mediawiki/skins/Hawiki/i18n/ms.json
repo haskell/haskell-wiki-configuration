@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aurora",
+			"Pizza1016"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki-skin-desc": "Versi MonoBook yang moden dengan rupa yang segar dan banyak pembaikan kepada kegunaan.",
+	"hawiki.css": "/* CSS yang terletak di sini akan mempengaruhi pengguna kulit Hawiki */",
+	"hawiki.js": "/ * Sebarang JavaScript di sini akan dimuatkan untuk pengguna-pengguna yang menggunakan kulit Hawiki * /",
+	"hawiki-action-addsection": "Buka topik",
+	"hawiki-action-delete": "Hapus",
+	"hawiki-action-move": "Pindah",
+	"hawiki-action-protect": "Lindung",
+	"hawiki-action-undelete": "Nyahhapus",
+	"hawiki-action-unprotect": "Ubah perlindungan",
+	"hawiki-view-create": "Cipta",
+	"hawiki-view-edit": "Sunting",
+	"hawiki-view-history": "Lihat sejarah",
+	"hawiki-view-view": "Baca",
+	"hawiki-view-viewsource": "Lihat sumber",
+	"hawiki-more-actions": "Lain"
+}

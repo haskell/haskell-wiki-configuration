@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Atabek"
+		]
+	},
+	"hawiki-action-addsection": "Tema qosıw",
+	"hawiki-action-delete": "O'shiriw",
+	"hawiki-action-move": "Ko'shiriw",
+	"hawiki-action-protect": "Qorg'aw",
+	"hawiki-action-undelete": "Qayta tiklew",
+	"hawiki-action-unprotect": "Qorg'awdı o'zgertiw",
+	"hawiki-view-create": "Jaratıw",
+	"hawiki-view-edit": "O'zgertiw",
+	"hawiki-view-history": "Tariyxın ko'riw",
+	"hawiki-view-view": "Oqıw",
+	"hawiki-view-viewsource": "Deregin ko'riw"
+}

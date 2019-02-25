@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asoxor",
+			"Calak"
+		]
+	},
+	"skinname-hawiki": "ڤێکتۆر",
+	"hawiki-action-addsection": "بابەت دابنێ",
+	"hawiki-action-delete": "بیسڕەوە",
+	"hawiki-action-move": "بیگوازەوە",
+	"hawiki-action-protect": "بیپارێزە",
+	"hawiki-action-undelete": "سڕینەوە بگەڕێنەوە",
+	"hawiki-action-unprotect": "پاراستن بگۆڕە",
+	"hawiki-view-create": "دروستکردن",
+	"hawiki-view-edit": "دەستکاریی بکە",
+	"hawiki-view-history": "مێژووەکەی ببینە",
+	"hawiki-view-view": "بیخوێنەوە",
+	"hawiki-view-viewsource": "سەرچاوەکەی ببینە",
+	"hawiki-more-actions": "زیاتر"
+}

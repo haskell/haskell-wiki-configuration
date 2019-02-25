@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"Oldstoneage",
+			"GeekEmad"
+		]
+	},
+	"hawiki-skin-desc": "طبعة جديدة تاع مونوبوك، ب شبحة جديدة و تحسانات فل إستعماليّة",
+	"hawiki-action-addsection": "زيد موضوع",
+	"hawiki-action-delete": "امحي",
+	"hawiki-action-move": "حول",
+	"hawiki-action-protect": "بروجي",
+	"hawiki-action-undelete": "ردّ كيما كان",
+	"hawiki-action-unprotect": "بدّل الـحماية",
+	"hawiki-view-create": "أصنع",
+	"hawiki-view-edit": "بدّل",
+	"hawiki-view-history": "شوف التاريخ",
+	"hawiki-view-view": "اقرى",
+	"hawiki-view-viewsource": "شوف المصدر",
+	"hawiki-more-actions": "اكثر"
+}

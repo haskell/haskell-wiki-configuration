@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар",
+			"Исмаил Садуев"
+		]
+	},
+	"skinname-hawiki": "Векторан",
+	"hawiki-action-addsection": "Тема тӀетоха",
+	"hawiki-action-delete": "ДӀаяккхар",
+	"hawiki-action-move": "ЦӀе хийцар",
+	"hawiki-action-protect": "Ларъяр",
+	"hawiki-action-undelete": "МеттахӀоттае",
+	"hawiki-action-unprotect": "Ларъяр хийцар",
+	"hawiki-view-create": "Кхоллар",
+	"hawiki-view-edit": "Нисъе",
+	"hawiki-view-history": "АгӀона хийцамаш",
+	"hawiki-view-view": "Éшар",
+	"hawiki-view-viewsource": "Билглонашка хьажа",
+	"hawiki-more-actions": "Кхин"
+}

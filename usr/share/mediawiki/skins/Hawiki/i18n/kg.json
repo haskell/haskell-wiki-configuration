@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rkupsala"
+		]
+	},
+	"hawiki-action-delete": "Kufwa",
+	"hawiki-action-move": "Nata",
+	"hawiki-action-protect": "Keba",
+	"hawiki-view-create": "Tunga",
+	"hawiki-view-edit": "Soba",
+	"hawiki-view-history": "Tala bansoba",
+	"hawiki-view-view": "Tânga"
+}

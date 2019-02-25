@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avicennasis",
+			"John Reid",
+			"Omnipaedista",
+			"Aursani",
+			"Macofe"
+		]
+	},
+	"hawiki-skin-desc": "Modern version o MonoBook wi ae fresh luik n monie uisabeelitie impruivments",
+	"hawiki-action-addsection": "Eik topic",
+	"hawiki-action-delete": "Delyte",
+	"hawiki-action-move": "Muiv",
+	"hawiki-action-protect": "Fend",
+	"hawiki-action-undelete": "Ondelyte",
+	"hawiki-action-unprotect": "Chynge protection",
+	"hawiki-view-create": "Ceaut",
+	"hawiki-view-edit": "Eedit",
+	"hawiki-view-history": "See histerie",
+	"hawiki-view-view": "Read",
+	"hawiki-view-viewsource": "See Soorce",
+	"hawiki-more-actions": "Mair"
+}

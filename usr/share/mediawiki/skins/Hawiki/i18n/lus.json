@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"hawiki-action-addsection": "Thupui belhna",
+	"hawiki-action-delete": "Paihna",
+	"hawiki-action-move": "Sawnna",
+	"hawiki-action-protect": "Venhimna",
+	"hawiki-action-undelete": "Lak kir lehna",
+	"hawiki-action-unprotect": "Venhimna dinhmun tidanglam rawh",
+	"hawiki-view-create": "Siamna",
+	"hawiki-view-edit": "Siamţhatna",
+	"hawiki-view-history": "Hunhlui-chanchin",
+	"hawiki-view-view": "Chhiarna",
+	"hawiki-view-viewsource": "A hnar enna"
+}

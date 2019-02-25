@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND",
+			"Shubha"
+		]
+	},
+	"hawiki-action-addsection": "विषयः योज्यताम्",
+	"hawiki-action-delete": "अपाक्रियताम्",
+	"hawiki-action-move": "शीर्षकं परिवर्त्यताम्",
+	"hawiki-action-protect": "संरक्ष्यताम्",
+	"hawiki-action-undelete": "अनपाक्रियाम्",
+	"hawiki-action-unprotect": "संरक्षणं परिवर्तयतु",
+	"hawiki-view-create": "सृज्यताम्",
+	"hawiki-view-edit": "सम्पाद्यताम्",
+	"hawiki-view-history": "इतिहासः दृश्यताम्",
+	"hawiki-view-view": "पठ्यताम्",
+	"hawiki-view-viewsource": "स्रोतः दृश्यताम्",
+	"hawiki-more-actions": "अधिकम्"
+}

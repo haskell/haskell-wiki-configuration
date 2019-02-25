@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gleki"
+		]
+	},
+	"skinname-hawiki": "la vektor",
+	"hawiki-skin-desc": "cabna versiio la monobuk i vifne tarmi i so'i da nu xamgu zenba",
+	"hawiki-action-addsection": "jmina lo se casnu pagbu",
+	"hawiki-action-delete": "vimcu",
+	"hawiki-action-move": "stika lo cmene",
+	"hawiki-action-protect": "co'a bandu",
+	"hawiki-action-undelete": "ca'o nai vimcu",
+	"hawiki-action-unprotect": "co'u bandu",
+	"hawiki-view-create": "zbasu",
+	"hawiki-view-edit": "stika",
+	"hawiki-view-history": "citri lo papri",
+	"hawiki-view-view": "tcidu",
+	"hawiki-view-viewsource": "cpacu lo krasi",
+	"hawiki-more-actions": "ji'a"
+}

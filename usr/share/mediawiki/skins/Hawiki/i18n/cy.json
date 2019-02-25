@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr"
+		]
+	},
+	"hawiki-action-addsection": "Ychwanegu adran",
+	"hawiki-action-delete": "Dileu",
+	"hawiki-action-move": "Symud",
+	"hawiki-action-protect": "Diogelu",
+	"hawiki-action-undelete": "Adfer",
+	"hawiki-action-unprotect": "Newid y diogelwch",
+	"hawiki-view-create": "Dechrau",
+	"hawiki-view-edit": "Golygu",
+	"hawiki-view-history": "Gweld yr hanes",
+	"hawiki-view-view": "Darllen",
+	"hawiki-view-viewsource": "Dangos côd y dudalen",
+	"hawiki-more-actions": "Rhagor"
+}

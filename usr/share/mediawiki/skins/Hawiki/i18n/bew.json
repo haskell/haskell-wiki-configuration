@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naval Scene"
+		]
+	},
+	"hawiki-action-delete": "Ngapus",
+	"hawiki-action-move": "Pindahin",
+	"hawiki-action-undelete": "Balikin nyang keapus",
+	"hawiki-view-create": "Bikin"
+}

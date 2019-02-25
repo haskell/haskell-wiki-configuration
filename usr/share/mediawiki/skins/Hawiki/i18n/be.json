@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikalai Udodau",
+			"Yury Tarasievich",
+			"Дзяніс Тутэйшы",
+			"Хомелка"
+		]
+	},
+	"hawiki-skin-desc": "Сучасная версія вокладкі Манабук, з абноўленым відам і шматлікімі зручнымі паляпшэннямі",
+	"hawiki-action-addsection": "Дадаць тэму",
+	"hawiki-action-delete": "Сцерці",
+	"hawiki-action-move": "Перанесці",
+	"hawiki-action-protect": "Ахова",
+	"hawiki-action-undelete": "Аднавіць",
+	"hawiki-action-unprotect": "Змяніць ахову",
+	"hawiki-view-create": "Стварыць",
+	"hawiki-view-edit": "Правіць",
+	"hawiki-view-history": "Паказаць гісторыю",
+	"hawiki-view-view": "Чытаць",
+	"hawiki-view-viewsource": "Паказаць зыходны тэкст",
+	"hawiki-more-actions": "Яшчэ"
+}

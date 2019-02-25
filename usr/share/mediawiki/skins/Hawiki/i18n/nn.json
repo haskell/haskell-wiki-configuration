@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Njardarlogar"
+		]
+	},
+	"hawiki-action-addsection": "Nytt emne",
+	"hawiki-action-delete": "Slett",
+	"hawiki-action-move": "Flytt",
+	"hawiki-action-protect": "Vern",
+	"hawiki-action-undelete": "Gjenopprett",
+	"hawiki-action-unprotect": "Endra vern",
+	"hawiki-view-create": "Opprett",
+	"hawiki-view-edit": "Endre",
+	"hawiki-view-history": "Sjå historikken",
+	"hawiki-view-view": "Les",
+	"hawiki-view-viewsource": "Sjå kjelda",
+	"hawiki-more-actions": "Meir"
+}

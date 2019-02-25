@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Ahonc",
+			"Base",
+			"Calak",
+			"Dim Grits",
+			"NickK",
+			"Prima klasy4na",
+			"Тест",
+			"Ата",
+			"Piramidion"
+		]
+	},
+	"skinname-hawiki": "Векторне",
+	"hawiki-skin-desc": "Сучасна версія MonoBook зі свіжим виглядом і багатьма зручними покращеннями",
+	"hawiki.css": "/* Розміщений тут CSS-код буде використаний в темі оформлення Векторне */",
+	"hawiki.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують векторну тему оформлення */",
+	"hawiki-action-addsection": "Додати тему",
+	"hawiki-action-delete": "Вилучити",
+	"hawiki-action-move": "Перейменувати",
+	"hawiki-action-protect": "Захистити",
+	"hawiki-action-undelete": "Відновити",
+	"hawiki-action-unprotect": "Зміна захисту",
+	"hawiki-view-create": "Створити",
+	"hawiki-view-edit": "Редагувати",
+	"hawiki-view-history": "Переглянути історію",
+	"hawiki-view-view": "Читати",
+	"hawiki-view-viewsource": "Переглянути код",
+	"hawiki-more-actions": "Ще"
+}

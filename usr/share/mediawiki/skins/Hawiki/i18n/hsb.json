@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"hawiki-action-addsection": "Temu přidać",
+	"hawiki-action-delete": "wušmórnyć",
+	"hawiki-action-move": "přesunyć",
+	"hawiki-action-protect": "škitać",
+	"hawiki-action-undelete": "Wobnowić",
+	"hawiki-action-unprotect": "Škit wotstronić",
+	"hawiki-view-create": "Wutworić",
+	"hawiki-view-edit": "Wobdźěłać",
+	"hawiki-view-history": "Stawizny",
+	"hawiki-view-view": "Čitać",
+	"hawiki-view-viewsource": "Žórło sej wobhladać",
+	"hawiki-more-actions": "Wjace"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Usingha"
+		]
+	},
+	"hawiki-action-addsection": "বিষয় তিলকর",
+	"hawiki-action-delete": "পুসে বেলা",
+	"hawiki-action-move": "থেইকর",
+	"hawiki-action-protect": "লুকর",
+	"hawiki-action-undelete": "নাপুসি",
+	"hawiki-action-unprotect": "লুকরানিহান সিলকর",
+	"hawiki-view-create": "হঙকরিক",
+	"hawiki-view-edit": "পতানি",
+	"hawiki-view-history": "ইতিহাস চেইক",
+	"hawiki-view-view": "পাকরিক",
+	"hawiki-view-viewsource": "সোর্স চেইক"
+}

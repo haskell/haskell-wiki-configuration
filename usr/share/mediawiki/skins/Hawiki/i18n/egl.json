@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lévi"
+		]
+	},
+	"hawiki-action-addsection": "Zûnta discusiòun",
+	"hawiki-action-delete": "Scanşèla",
+	"hawiki-action-move": "Spôsta",
+	"hawiki-action-protect": "Prutēz",
+	"hawiki-action-undelete": "Fà al recóper",
+	"hawiki-action-unprotect": "Câmbia la prutesiòun",
+	"hawiki-view-create": "Invèinta",
+	"hawiki-view-edit": "Mudéfica",
+	"hawiki-view-history": "Guêrda la stôria",
+	"hawiki-view-view": "Lēş",
+	"hawiki-view-viewsource": "Guêrda la surzéia",
+	"hawiki-more-actions": "Êter"
+}

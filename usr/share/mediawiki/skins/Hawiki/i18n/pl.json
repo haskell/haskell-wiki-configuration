@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Sp5uhe"
+		]
+	},
+	"skinname-hawiki": "Wektor",
+	"hawiki-skin-desc": "Odświeżona wersja skórki Książka, z nowym wyglądem i usprawnieniami",
+	"hawiki.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Wektor */",
+	"hawiki.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Wektor */",
+	"hawiki-action-addsection": "Dodaj temat",
+	"hawiki-action-delete": "Usuń",
+	"hawiki-action-move": "Przenieś",
+	"hawiki-action-protect": "Zabezpiecz",
+	"hawiki-action-undelete": "Odtwórz",
+	"hawiki-action-unprotect": "Zmień zabezpieczenie",
+	"hawiki-view-create": "Utwórz",
+	"hawiki-view-edit": "Edytuj",
+	"hawiki-view-history": "Wyświetl historię",
+	"hawiki-view-view": "Czytaj",
+	"hawiki-view-viewsource": "Tekst źródłowy",
+	"hawiki-more-actions": "Więcej"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Chaipau",
+			"Gitartha.bordoloi"
+		]
+	},
+	"hawiki-action-addsection": "বিষয় যোগ",
+	"hawiki-action-delete": "বিলোপ কৰক",
+	"hawiki-action-move": "স্থানান্তৰ কৰক",
+	"hawiki-action-protect": "সুৰক্ষিত কৰক",
+	"hawiki-action-undelete": "পুনৰুদ্ধাৰ কৰক",
+	"hawiki-action-unprotect": "সুৰক্ষা সলনি কৰক",
+	"hawiki-view-create": "সৃষ্টি কৰক",
+	"hawiki-view-edit": "সম্পাদনা",
+	"hawiki-view-history": "ইতিহাস চাওক",
+	"hawiki-view-view": "পঢ়ক",
+	"hawiki-view-viewsource": "উৎস চাওক",
+	"hawiki-more-actions": "অধিক"
+}

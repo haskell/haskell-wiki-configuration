@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba",
+			"Kuvaly"
+		]
+	},
+	"hawiki-action-addsection": "Dodôj témã",
+	"hawiki-action-delete": "Rëmôj",
+	"hawiki-action-move": "Przeniesë",
+	"hawiki-action-protect": "Zazychrëjë",
+	"hawiki-action-undelete": "Doprowôdzë nazôd",
+	"hawiki-action-unprotect": "Òdzychrëjë",
+	"hawiki-view-create": "Ùsôdzë",
+	"hawiki-view-edit": "Edicëjô",
+	"hawiki-view-history": "Historëjô lopka",
+	"hawiki-view-view": "Czëtôj",
+	"hawiki-view-viewsource": "Zdrojowi tekst"
+}

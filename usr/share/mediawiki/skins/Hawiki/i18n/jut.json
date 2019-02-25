@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jyllanj"
+		]
+	},
+	"hawiki-action-addsection": "Ny emn",
+	"hawiki-action-move": "Flytt",
+	"hawiki-view-create": "Oprett",
+	"hawiki-view-edit": "Redigiir",
+	"hawiki-view-history": "Sie historik",
+	"hawiki-view-view": "Läs",
+	"hawiki-more-actions": "Mier"
+}

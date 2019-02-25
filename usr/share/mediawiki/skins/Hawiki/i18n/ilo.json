@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang",
+			"Saluyot"
+		]
+	},
+	"hawiki-skin-desc": "Moderno a bersion ti MonoBook nga addaan iti baro a langa ken adu kadagiti naserbi a panagpasayaat",
+	"hawiki-action-addsection": "Agnayon iti topiko",
+	"hawiki-action-delete": "Ikkaten",
+	"hawiki-action-move": "Iyalis",
+	"hawiki-action-protect": "Salakniban",
+	"hawiki-action-undelete": "Isubli ti inikkat",
+	"hawiki-action-unprotect": "Sukatan ti salaknib",
+	"hawiki-view-create": "Agaramid",
+	"hawiki-view-edit": "Urnosen",
+	"hawiki-view-history": "Kitaen ti pakasaritaan",
+	"hawiki-view-view": "Basaen",
+	"hawiki-view-viewsource": "Kitaen ti taudan",
+	"hawiki-more-actions": "Adu pay"
+}

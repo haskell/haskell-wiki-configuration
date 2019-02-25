@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andria",
+			"Marzedu",
+			"Via maxima",
+			"Uharteko",
+			"Taxandru"
+		]
+	},
+	"hawiki-action-addsection": "Agiunghe cuntierra",
+	"hawiki-action-delete": "Burra",
+	"hawiki-action-move": "Move",
+	"hawiki-action-protect": "Barda",
+	"hawiki-action-undelete": "Recùpera",
+	"hawiki-view-create": "Crea",
+	"hawiki-view-edit": "Modìfica",
+	"hawiki-view-history": "Càstia istòria",
+	"hawiki-view-view": "Leghe",
+	"hawiki-view-viewsource": "Càstia mitza",
+	"hawiki-more-actions": "Prus"
+}

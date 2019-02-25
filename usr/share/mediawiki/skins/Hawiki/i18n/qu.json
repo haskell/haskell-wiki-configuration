@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"hawiki-action-addsection": "Allwiyta yapay",
+	"hawiki-action-delete": "Qulluy",
+	"hawiki-action-move": "Astay",
+	"hawiki-action-protect": "Amachay",
+	"hawiki-action-undelete": "Qullusqata paqarichiy",
+	"hawiki-action-unprotect": "Amachayta wakinchay",
+	"hawiki-view-create": "Kamariy",
+	"hawiki-view-edit": "Llamk'apuy",
+	"hawiki-view-history": "Wiñay kawsayta qhaway",
+	"hawiki-view-view": "Ñawiriy",
+	"hawiki-view-viewsource": "Pukyu qillqata qhaway",
+	"hawiki-more-actions": "Aswan"
+}

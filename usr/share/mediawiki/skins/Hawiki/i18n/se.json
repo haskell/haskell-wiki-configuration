@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gálaniitoluodda",
+			"Jeblad",
+			"Trondtr"
+		]
+	},
+	"hawiki-action-addsection": "Lasit fáttá",
+	"hawiki-action-delete": "Sihko",
+	"hawiki-action-move": "Sirdde",
+	"hawiki-action-protect": "Suodjal",
+	"hawiki-action-undelete": "Máhcat",
+	"hawiki-action-unprotect": "Rievdat suodjaleami",
+	"hawiki-view-create": "Álggat",
+	"hawiki-view-edit": "Rievdat",
+	"hawiki-view-history": "Geahča historjjá",
+	"hawiki-view-view": "Loga",
+	"hawiki-view-viewsource": "Geahča gáldokoda"
+}

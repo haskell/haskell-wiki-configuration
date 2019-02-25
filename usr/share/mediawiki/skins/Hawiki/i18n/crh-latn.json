@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"hawiki-action-addsection": "Mevzu qoş",
+	"hawiki-action-delete": "Yoq et",
+	"hawiki-action-move": "Adını deñiştir",
+	"hawiki-action-protect": "Qorçala",
+	"hawiki-action-undelete": "Yañıdan yarat",
+	"hawiki-action-unprotect": "Qorçalavnı deñiştir",
+	"hawiki-view-create": "Yarat",
+	"hawiki-view-edit": "Deñiştir",
+	"hawiki-view-history": "Keçmişini köster",
+	"hawiki-view-view": "Oqu",
+	"hawiki-view-viewsource": "Menba kodunı köster"
+}

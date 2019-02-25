@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DasRakel"
+		]
+	},
+	"hawiki-action-delete": "Wegdoen",
+	"hawiki-action-move": "Ernoemn",
+	"hawiki-view-create": "Anmoakn",
+	"hawiki-view-edit": "Bewerkn",
+	"hawiki-view-history": "Geschiedenisse bekykn",
+	"hawiki-view-view": "Leezn",
+	"hawiki-view-viewsource": "Brontekst bekykn"
+}

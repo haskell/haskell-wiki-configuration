@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lezgia",
+			"Migraghvi",
+			"Namik",
+			"Soul Train"
+		]
+	},
+	"hawiki-action-addsection": "Тема алава авун",
+	"hawiki-action-delete": "Алудун",
+	"hawiki-action-move": "ТӀвар эхцигун",
+	"hawiki-action-protect": "Хуьн",
+	"hawiki-action-undelete": "ТуькӀуьр хъувун",
+	"hawiki-action-unprotect": "Хуьн дегишарун",
+	"hawiki-view-create": "ТуькӀуьрун",
+	"hawiki-view-edit": "Дуьзарин",
+	"hawiki-view-history": "Тарихдиз килигун",
+	"hawiki-view-view": "КӀелун",
+	"hawiki-view-viewsource": "Чешме къалурун"
+}

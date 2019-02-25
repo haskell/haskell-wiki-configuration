@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"hawiki-action-addsection": "نوغ موضوع",
+	"hawiki-action-delete": "بوغاوے",
+	"hawiki-action-move": "منتقل کورے",
+	"hawiki-action-protect": "محفوظ کورے",
+	"hawiki-action-undelete": "اچی انگیے",
+	"hawiki-action-unprotect": "غیر محفوظ",
+	"hawiki-view-create": "ساوزاوے",
+	"hawiki-view-edit": "ایڈٹ کورے",
+	"hawiki-view-history": "تاریخچہ",
+	"hawiki-view-view": "راوے",
+	"hawiki-view-viewsource": "مسودہ",
+	"hawiki-more-actions": "مزید"
+}

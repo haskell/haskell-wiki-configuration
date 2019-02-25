@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dark Eagle"
+		]
+	},
+	"hawiki-action-addsection": "Dalikt padaļu",
+	"hawiki-action-delete": "Iztreit",
+	"hawiki-action-move": "Puorceļt",
+	"hawiki-action-protect": "Apsorguot",
+	"hawiki-action-unprotect": "Puormeit apsardzeibu",
+	"hawiki-view-edit": "Pataiseit",
+	"hawiki-view-history": "Viesture",
+	"hawiki-view-view": "Vērtīs"
+}

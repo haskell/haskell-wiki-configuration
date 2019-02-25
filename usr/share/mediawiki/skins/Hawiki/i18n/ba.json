@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"Haqmar",
+			"Рустам Нурыев",
+			"Sagan"
+		]
+	},
+	"skinname-hawiki": "Векторлы",
+	"hawiki-skin-desc": "Хәҙерге заман  «Векторлы» күренеше, биҙәлеш яүыртылған һәм яңы мөмкинлектәр файҙаланылған",
+	"hawiki-action-addsection": "Тема өҫтәргә",
+	"hawiki-action-delete": "Юйырға",
+	"hawiki-action-move": "Исемен үҙгәртергә",
+	"hawiki-action-protect": "Һаҡларға",
+	"hawiki-action-undelete": "Тергеҙергә",
+	"hawiki-action-unprotect": "Һаҡлауҙы үҙгәртергә",
+	"hawiki-view-create": "Яһау",
+	"hawiki-view-edit": "Үҙгәртергә",
+	"hawiki-view-history": "Тарихты ҡарау",
+	"hawiki-view-view": "Уҡыу",
+	"hawiki-view-viewsource": "Сығанаҡты ҡарарға",
+	"hawiki-more-actions": "Тағы"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"hawiki-skin-desc": "Аныгы, саҥардыллыбыт, тупсарыллыбыт MonoBook",
+	"hawiki-action-addsection": "Тиэмэ эбии",
+	"hawiki-action-delete": "Сот",
+	"hawiki-action-move": "Аатын уларыт",
+	"hawiki-action-protect": "Уларыйбат гын",
+	"hawiki-action-undelete": "Төннөр",
+	"hawiki-action-unprotect": "Көмүскэлин уларыт",
+	"hawiki-view-create": "Ай",
+	"hawiki-view-edit": "Уларыт",
+	"hawiki-view-history": "Устуоруйатын көрүү",
+	"hawiki-view-view": "Ааҕыы",
+	"hawiki-view-viewsource": "Бэлиэлэрин көрүү",
+	"hawiki-more-actions": "Эбии"
+}

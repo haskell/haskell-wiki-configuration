@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirzali"
+		]
+	},
+	"hawiki-action-addsection": "Mewzu ilawe ke",
+	"hawiki-action-delete": "Bestere",
+	"hawiki-action-move": "Bere",
+	"hawiki-action-protect": "Bısevekne",
+	"hawiki-action-undelete": "Esterıtene peyser bıcê",
+	"hawiki-action-unprotect": "Rake",
+	"hawiki-view-create": "Vıraze",
+	"hawiki-view-edit": "Bıvurne",
+	"hawiki-view-history": "Tarixi basne",
+	"hawiki-view-view": "Bıwane",
+	"hawiki-view-viewsource": "Çımey bıvêne"
+}

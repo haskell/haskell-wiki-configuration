@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Kiranmayee",
+			"Praveen Illa",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"skinname-hawiki": "వెక్టర్",
+	"hawiki-action-addsection": "విషయాన్ని చేర్చు",
+	"hawiki-action-delete": "తొలగించు",
+	"hawiki-action-move": "తరలించు",
+	"hawiki-action-protect": "సంరక్షించు",
+	"hawiki-action-undelete": "తొలగింపును రద్దుచెయ్యి",
+	"hawiki-action-unprotect": "సంరక్షణను మార్చు",
+	"hawiki-view-create": "సృష్టించు",
+	"hawiki-view-edit": "సవరించు",
+	"hawiki-view-history": "చరిత్రను చూడండి",
+	"hawiki-view-view": "చదువు",
+	"hawiki-view-viewsource": "మూలాన్ని చూపించు",
+	"hawiki-more-actions": "మరిన్ని"
+}

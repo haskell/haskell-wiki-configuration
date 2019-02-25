@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Enzoreg",
+			"Zanatos"
+		]
+	},
+	"hawiki-action-addsection": "Zid topic",
+	"hawiki-action-delete": "Suprimi",
+	"hawiki-action-move": "Neqel",
+	"hawiki-action-protect": "Ḫami",
+	"hawiki-action-undelete": "rja lhadf",
+	"hawiki-action-unprotect": "Ḫiyed l-ḫimaya",
+	"hawiki-view-create": "Ĥṫareĝ",
+	"hawiki-view-edit": "Ĝedel",
+	"hawiki-view-history": "Ṫariĥ l-fiċyé",
+	"hawiki-view-view": "Qra",
+	"hawiki-view-viewsource": "Ċof l-masdar"
+}

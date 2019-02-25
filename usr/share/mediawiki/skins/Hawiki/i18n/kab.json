@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mmistmurt"
+		]
+	},
+	"hawiki-action-addsection": "Rnud ameggay",
+	"hawiki-action-delete": "Mḥu",
+	"hawiki-action-move": "Smimeḍ",
+	"hawiki-action-protect": "Mmesten",
+	"hawiki-action-undelete": "Uɣaled",
+	"hawiki-action-unprotect": "Beddel amesten",
+	"hawiki-view-create": "Snulfu",
+	"hawiki-view-edit": "Ẓẓiẓreg",
+	"hawiki-view-history": "Ẓeṛ amazray",
+	"hawiki-view-view": "Ɣer",
+	"hawiki-view-viewsource": "Ẓer aɣbalu"
+}

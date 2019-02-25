@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kolonahe"
+		]
+	},
+	"hawiki-action-addsection": "Hoʻohui kumuhana",
+	"hawiki-action-delete": "Holoi",
+	"hawiki-action-move": "E hoʻoneʻe",
+	"hawiki-action-protect": "E hoʻomalu",
+	"hawiki-action-undelete": "Holoiʻole",
+	"hawiki-action-unprotect": "E hoʻololi i ka hoʻomalu",
+	"hawiki-view-create": "Haku",
+	"hawiki-view-edit": "Hoʻololi",
+	"hawiki-view-history": "Nānā i ka mōʻaukala",
+	"hawiki-view-view": "Heluhelu",
+	"hawiki-view-viewsource": "Nānā i ke kumu"
+}

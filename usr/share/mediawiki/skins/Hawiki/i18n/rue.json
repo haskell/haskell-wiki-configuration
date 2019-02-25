@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb",
+			"Tkalyn"
+		]
+	},
+	"hawiki-action-addsection": "Придати тему",
+	"hawiki-action-delete": "Вымазати",
+	"hawiki-action-move": "Переменовати",
+	"hawiki-action-protect": "Всокотити",
+	"hawiki-action-undelete": "Обновити",
+	"hawiki-action-unprotect": "Змінити замок",
+	"hawiki-view-create": "Створити",
+	"hawiki-view-edit": "Едітовати",
+	"hawiki-view-history": "Видїти історію",
+	"hawiki-view-view": "Чітати",
+	"hawiki-view-viewsource": "Видїти код",
+	"hawiki-more-actions": "Веце"
+}

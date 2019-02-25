@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hazard-SJ",
+			"Yocahuna",
+			"Katxis"
+		]
+	},
+	"hawiki-action-addsection": "Ad tapik",
+	"hawiki-action-delete": "Diliit",
+	"hawiki-action-move": "Muuv",
+	"hawiki-action-protect": "Protek",
+	"hawiki-action-undelete": "Andiliit",
+	"hawiki-action-unprotect": "Neu protektian",
+	"hawiki-view-create": "Kriet",
+	"hawiki-view-edit": "Hedit",
+	"hawiki-view-history": "Vyuu ischri",
+	"hawiki-view-view": "Riid",
+	"hawiki-view-viewsource": "Vyuu Suos",
+	"hawiki-more-actions": "Muo"
+}

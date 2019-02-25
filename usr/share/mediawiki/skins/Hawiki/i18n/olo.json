@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Denö",
+			"Ilja.mos",
+			"Mashoi7"
+		]
+	},
+	"hawiki-action-addsection": "Ližiä aihe",
+	"hawiki-action-delete": "Ota iäre",
+	"hawiki-action-move": "Siirrä",
+	"hawiki-action-protect": "Suojua",
+	"hawiki-action-unprotect": "Vaihta suojavustu",
+	"hawiki-view-create": "Luaji",
+	"hawiki-view-edit": "Kohendele",
+	"hawiki-view-history": "Kačo histourii",
+	"hawiki-view-view": "Luve",
+	"hawiki-view-viewsource": "Kačo algukoodu",
+	"hawiki-more-actions": "Vie"
+}

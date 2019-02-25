@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bogups",
+			"Тамэ Балъкъэрхэ"
+		]
+	},
+	"hawiki-action-addsection": "Теухугъуэ щӀэуэ щӀэдзэн",
+	"hawiki-action-delete": "Ихын",
+	"hawiki-action-move": "ЦӀэр хъуэжын",
+	"hawiki-action-protect": "Хъумэн",
+	"hawiki-action-undelete": "ЗыфӀэгъэувэжын",
+	"hawiki-action-unprotect": "Хъумэныр техыжын",
+	"hawiki-view-create": "ЩӀын",
+	"hawiki-view-edit": "Гъэтэрэзын",
+	"hawiki-view-history": "Тхыдэм еплъын",
+	"hawiki-view-view": "Еджэн",
+	"hawiki-view-viewsource": "КъызхэкӀам еплъын"
+}

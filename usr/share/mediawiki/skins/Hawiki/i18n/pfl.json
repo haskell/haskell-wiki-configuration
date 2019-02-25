@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"hawiki-action-addsection": "Abschnidd dzufiesche",
+	"hawiki-action-delete": "Lesche",
+	"hawiki-action-move": "Vaschiewe",
+	"hawiki-action-protect": "Schidze",
+	"hawiki-action-undelete": "Zriggbringe",
+	"hawiki-view-create": "Oaleesche",
+	"hawiki-view-edit": "Droa schaffe",
+	"hawiki-view-history": "Dadaigschischd",
+	"hawiki-view-view": "Lese",
+	"hawiki-view-viewsource": "Gwelltegschd zaische",
+	"hawiki-more-actions": "Mea"
+}

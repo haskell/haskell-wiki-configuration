@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Marine-Blue",
+			"Penn Station",
+			"Shirayuki",
+			"Whym",
+			"青子守歌",
+			"Takot"
+		]
+	},
+	"skinname-hawiki": "ベクター",
+	"hawiki-skin-desc": "新しい見た目でユーザビリティが改善された、モダンバージョンのMonobook。",
+	"hawiki.css": "/* ここに記述したCSSはベクター外装の利用者に影響します */",
+	"hawiki.js": "/* ここにあるすべてのJavaScriptは、ベクター外装を使用している利用者に対して読み込まれます */",
+	"hawiki-action-addsection": "話題追加",
+	"hawiki-action-delete": "削除",
+	"hawiki-action-move": "移動",
+	"hawiki-action-protect": "保護",
+	"hawiki-action-undelete": "復元",
+	"hawiki-action-unprotect": "保護再設定",
+	"hawiki-view-create": "作成",
+	"hawiki-view-edit": "編集",
+	"hawiki-view-history": "履歴表示",
+	"hawiki-view-view": "閲覧",
+	"hawiki-view-viewsource": "ソースを閲覧",
+	"hawiki-more-actions": "その他"
+}

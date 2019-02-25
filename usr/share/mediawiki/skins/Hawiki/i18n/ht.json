@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boukman",
+			"Internoob",
+			"Masterches",
+			"Tisave"
+		]
+	},
+	"hawiki-action-addsection": "Ajoute yon sijè",
+	"hawiki-action-delete": "Efase",
+	"hawiki-action-move": "Chanje non",
+	"hawiki-action-protect": "Pwoteje",
+	"hawiki-action-undelete": "Retabli",
+	"hawiki-action-unprotect": "Pa pwoteje",
+	"hawiki-view-create": "Kreye",
+	"hawiki-view-edit": "Modifye",
+	"hawiki-view-history": "Gade istorik",
+	"hawiki-view-view": "Li",
+	"hawiki-view-viewsource": "Wè kòd tèks sa a",
+	"hawiki-more-actions": "Plis"
+}

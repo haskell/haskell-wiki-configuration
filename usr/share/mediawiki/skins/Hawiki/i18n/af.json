@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byeboer",
+			"Naudefj"
+		]
+	},
+	"hawiki-action-addsection": "Nuwe onderwerp",
+	"hawiki-action-delete": "Skrap",
+	"hawiki-action-move": "Skuif",
+	"hawiki-action-protect": "Beskerm",
+	"hawiki-action-undelete": "Ontskrap",
+	"hawiki-action-unprotect": "Wysig beskerming",
+	"hawiki-view-create": "Skep",
+	"hawiki-view-edit": "Wysig",
+	"hawiki-view-history": "Wys geskiedenis",
+	"hawiki-view-view": "Lees",
+	"hawiki-view-viewsource": "Wys bronteks",
+	"hawiki-more-actions": "Meer"
+}

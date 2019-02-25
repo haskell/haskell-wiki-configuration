@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"DzWiki",
+			"KWiki",
+			"Edinwiki",
+			"Srdjan m"
+		]
+	},
+	"hawiki-skin-desc": "Moderna verzija MonoKnjige s novijim izgledom i mnogim poboljšanjima u pogledu upotrebljivosti",
+	"hawiki-action-addsection": "Dodaj temu",
+	"hawiki-action-delete": "Izbriši",
+	"hawiki-action-move": "Premjesti",
+	"hawiki-action-protect": "Zaštiti",
+	"hawiki-action-undelete": "Vrati obrisano",
+	"hawiki-action-unprotect": "Promijeni zaštitu",
+	"hawiki-view-create": "Napravi",
+	"hawiki-view-edit": "Uredi",
+	"hawiki-view-history": "Historija",
+	"hawiki-view-view": "Čitaj",
+	"hawiki-view-viewsource": "Pogledaj izvor",
+	"hawiki-more-actions": "Više"
+}

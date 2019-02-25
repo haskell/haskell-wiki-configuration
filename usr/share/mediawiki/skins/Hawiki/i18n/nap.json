@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chelin",
+			"C.R."
+		]
+	},
+	"hawiki-skin-desc": "Verziona muderna 'e MonoBook cu n'aspetto nuovo nuovo e tante migliuramente d'uso",
+	"hawiki-action-addsection": "Aggiunge chiacchierata",
+	"hawiki-action-delete": "Scancèlla",
+	"hawiki-action-move": "Mòve",
+	"hawiki-action-protect": "Prutegge",
+	"hawiki-action-undelete": "Arrepiglia",
+	"hawiki-action-unprotect": "Càgna prutezzione",
+	"hawiki-view-create": "Crèa",
+	"hawiki-view-edit": "Càgna",
+	"hawiki-view-history": "Vire cronologgia",
+	"hawiki-view-view": "Liegge",
+	"hawiki-view-viewsource": "Vere sorgente",
+	"hawiki-more-actions": "Cchiù"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Emperyan",
+			"Joseph",
+			"Stultiwikia",
+			"Vito Genovese",
+			"Rapsar"
+		]
+	},
+	"hawiki-skin-desc": "Taze bir görünüm ile MonoBook Modern versiyonu ve kullanılabilirlik iyileştirmeler",
+	"hawiki-action-addsection": "Konu ekle",
+	"hawiki-action-delete": "Sil",
+	"hawiki-action-move": "Taşı",
+	"hawiki-action-protect": "Koru",
+	"hawiki-action-undelete": "Silinmeyi geri al",
+	"hawiki-action-unprotect": "Korumayı değiştir",
+	"hawiki-view-create": "Oluştur",
+	"hawiki-view-edit": "Değiştir",
+	"hawiki-view-history": "Geçmişi gör",
+	"hawiki-view-view": "Oku",
+	"hawiki-view-viewsource": "Kaynağı gör",
+	"hawiki-more-actions": "Diğer"
+}

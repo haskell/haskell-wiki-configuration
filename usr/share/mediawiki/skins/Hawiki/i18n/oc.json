@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boulaur",
+			"Cedric31"
+		]
+	},
+	"hawiki.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Hawiki */",
+	"hawiki.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Hawiki unicament. */",
+	"hawiki-action-addsection": "Apondre un subjècte",
+	"hawiki-action-delete": "Suprimir",
+	"hawiki-action-move": "Tornar nomenar",
+	"hawiki-action-protect": "Protegir",
+	"hawiki-action-undelete": "Restablir",
+	"hawiki-action-unprotect": "Suprimir la proteccion",
+	"hawiki-view-create": "Crear",
+	"hawiki-view-edit": "Modificar",
+	"hawiki-view-history": "Veire l'istoric",
+	"hawiki-view-view": "Legir",
+	"hawiki-view-viewsource": "Veire la font",
+	"hawiki-more-actions": "Mai"
+}

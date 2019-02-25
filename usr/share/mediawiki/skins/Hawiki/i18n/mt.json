@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"Leli Forte"
+		]
+	},
+	"hawiki-action-addsection": "Żid diskussjoni",
+	"hawiki-action-delete": "Ħassar",
+	"hawiki-action-move": "Mexxi",
+	"hawiki-action-protect": "Ipproteġi",
+	"hawiki-action-undelete": "Irkupra",
+	"hawiki-action-unprotect": "Biddel il-protezzjoni",
+	"hawiki-view-create": "Oħloq",
+	"hawiki-view-edit": "Immodifika",
+	"hawiki-view-history": "Ara l-kronoloġija",
+	"hawiki-view-view": "Aqra",
+	"hawiki-view-viewsource": "Ara s-sors",
+	"hawiki-more-actions": "Aktar"
+}

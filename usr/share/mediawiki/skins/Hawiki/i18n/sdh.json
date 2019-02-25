@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paraw2"
+		]
+	},
+	"hawiki-action-addsection": "بابەت تازە بدە سەری",
+	"hawiki-action-delete": "بسڕەوە",
+	"hawiki-action-move": "جیوەجی بکە",
+	"hawiki-action-protect": "بپیەرێزەێ",
+	"hawiki-view-create": "درسکردن",
+	"hawiki-view-edit": "وێراشتەێ بکە",
+	"hawiki-view-history": "دیرۆکەگەی بۊن",
+	"hawiki-view-view": "بخوەنە",
+	"hawiki-view-viewsource": "سەرچاوەگەێ بۊن"
+}

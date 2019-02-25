@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Sapral Mikail",
+			"Умар",
+			"Adam-Yourist"
+		]
+	},
+	"hawiki-action-addsection": "БӀагал тӀатоха",
+	"hawiki-action-delete": "ДӀадаккха",
+	"hawiki-action-move": "ЦӀи хувца",
+	"hawiki-action-protect": "Лораде",
+	"hawiki-action-undelete": "Юхаоттаде",
+	"hawiki-action-unprotect": "Лорам хувца",
+	"hawiki-view-create": "Кхоллар",
+	"hawiki-view-edit": "Нийсъе",
+	"hawiki-view-history": "Истори",
+	"hawiki-view-view": "Де́ша",
+	"hawiki-view-viewsource": "Зембакхама бӀаргтассам",
+	"hawiki-more-actions": "Кхы а"
+}

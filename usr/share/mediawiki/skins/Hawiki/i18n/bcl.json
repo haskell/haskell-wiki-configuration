@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd",
+			"Geopoet"
+		]
+	},
+	"hawiki-action-addsection": "Idagdag an topic",
+	"hawiki-action-delete": "puráon",
+	"hawiki-action-move": "Ibalyó",
+	"hawiki-action-protect": "Protektaran",
+	"hawiki-action-undelete": "Bawion sa pagkapara",
+	"hawiki-action-unprotect": "Ribayan an proteksyon",
+	"hawiki-view-create": "Magmukna",
+	"hawiki-view-edit": "Liwatón",
+	"hawiki-view-history": "Tanawon sa historiya",
+	"hawiki-view-view": "Basáha",
+	"hawiki-view-viewsource": "Hilingón an ginikánan"
+}

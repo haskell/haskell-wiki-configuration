@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agilight",
+			"Sborsody",
+			"Монгуш Салим"
+		]
+	},
+	"skinname-hawiki": "Вектор",
+	"hawiki-action-addsection": "Тема немээр",
+	"hawiki-action-delete": "Ырадыры",
+	"hawiki-action-move": "Шимчээри",
+	"hawiki-action-protect": "Камгалаары",
+	"hawiki-action-undelete": "Эгидер",
+	"hawiki-action-unprotect": "Камгалалды өскертири",
+	"hawiki-view-create": "Кылыр",
+	"hawiki-view-edit": "Эдер",
+	"hawiki-view-history": "Төөгүнү көөр",
+	"hawiki-view-view": "Номчуур",
+	"hawiki-view-viewsource": "Дөзү бижиин көөрү",
+	"hawiki-more-actions": "Оон ыңай"
+}

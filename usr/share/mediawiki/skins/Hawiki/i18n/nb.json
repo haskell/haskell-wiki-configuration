@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Event",
+			"Nghtwlkr"
+		]
+	},
+	"hawiki-skin-desc": "Moderne versjon av MonoBook med et friskt utseende og mange bruksforbedringer",
+	"hawiki-action-addsection": "Nytt emne",
+	"hawiki-action-delete": "Slett",
+	"hawiki-action-move": "Flytt",
+	"hawiki-action-protect": "Beskytt",
+	"hawiki-action-undelete": "Gjenopprett",
+	"hawiki-action-unprotect": "Endre beskyttelse",
+	"hawiki-view-create": "Opprett",
+	"hawiki-view-edit": "Rediger",
+	"hawiki-view-history": "Vis historikk",
+	"hawiki-view-view": "Les",
+	"hawiki-view-viewsource": "Vis kilden",
+	"hawiki-more-actions": "Mer"
+}

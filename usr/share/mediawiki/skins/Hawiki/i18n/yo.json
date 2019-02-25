@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Demmy"
+		]
+	},
+	"hawiki-action-addsection": "Àfikún orí-ọ̀rọ̀",
+	"hawiki-action-delete": "Ìparẹ́",
+	"hawiki-action-move": "Ìyípòdà",
+	"hawiki-action-protect": "Àbò",
+	"hawiki-action-undelete": "Ìmúkúrò ìparẹ́",
+	"hawiki-action-unprotect": "Ìyípadà àbò",
+	"hawiki-view-create": "Ṣ'èdá",
+	"hawiki-view-edit": "Àtúnṣe",
+	"hawiki-view-history": "Wo ìtàn",
+	"hawiki-view-view": "Àwòkà",
+	"hawiki-view-viewsource": "Wo àmìọ̀rọ̀",
+	"hawiki-more-actions": "Ọ̀pọ̀"
+}

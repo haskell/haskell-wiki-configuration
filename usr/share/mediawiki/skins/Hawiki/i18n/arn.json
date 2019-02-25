@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Clerc",
+			"Fiestoforo"
+		]
+	},
+	"hawiki-action-addsection": "Püñamtun dungu",
+	"hawiki-action-delete": "Liftun",
+	"hawiki-action-move": "Wiñamün",
+	"hawiki-action-protect": "Nürüfkünun",
+	"hawiki-action-undelete": "Wüñoñamümün",
+	"hawiki-action-unprotect": "Kalekünun Nürüfkünun",
+	"hawiki-view-create": "Dewman",
+	"hawiki-view-edit": "Kümeelün",
+	"hawiki-view-history": "Pengelün rupañmael",
+	"hawiki-view-view": "Chillkatun",
+	"hawiki-view-viewsource": "Kimam chew küpan chi wirin",
+	"hawiki-more-actions": "Doy"
+}

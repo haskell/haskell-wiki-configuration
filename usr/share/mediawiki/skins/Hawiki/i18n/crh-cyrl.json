@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"hawiki-action-addsection": "Мевзу къош",
+	"hawiki-action-delete": "Ёкъ эт",
+	"hawiki-action-move": "Адыны денъиштир",
+	"hawiki-action-protect": "Къорчала",
+	"hawiki-action-undelete": "Янъыдан ярат",
+	"hawiki-action-unprotect": "Къорчалавны денъиштир",
+	"hawiki-view-create": "Ярат",
+	"hawiki-view-edit": "Денъиштир",
+	"hawiki-view-history": "Кечмишини косьтер",
+	"hawiki-view-view": "Окъу",
+	"hawiki-view-viewsource": "Менба кодуны косьтер"
+}

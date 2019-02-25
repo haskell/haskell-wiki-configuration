@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Sky Harbor"
+		]
+	},
+	"skinname-hawiki": "Hawiki",
+	"hawiki.css": "/* Ang inilagay na CSS dito ay makakaapekto sa mga tagagamit ng pabalat na Hawiki */",
+	"hawiki.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng pabalat na Hawiki */",
+	"hawiki-action-addsection": "Magdagdag ng paksa",
+	"hawiki-action-delete": "Burahin",
+	"hawiki-action-move": "Ilipat",
+	"hawiki-action-protect": "Ipagsanggalang",
+	"hawiki-action-undelete": "Alisin ang pagbubura",
+	"hawiki-action-unprotect": "Baguhin ang pagsasanggalang",
+	"hawiki-view-create": "Likhain",
+	"hawiki-view-edit": "Baguhin",
+	"hawiki-view-history": "Tingnan ang kasaysayan",
+	"hawiki-view-view": "Basahin",
+	"hawiki-view-viewsource": "Tingnan ang pinagmulan",
+	"hawiki-more-actions": "Higit pa"
+}

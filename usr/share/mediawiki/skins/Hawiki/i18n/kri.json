@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Protostar"
+		]
+	},
+	"hawiki-action-addsection": "Add tòpik",
+	"hawiki-action-delete": "Delet",
+	"hawiki-action-move": "Muf",
+	"hawiki-action-protect": "Protèkt",
+	"hawiki-view-create": "Kreat",
+	"hawiki-view-edit": "Chenj",
+	"hawiki-view-history": "Luk historia",
+	"hawiki-view-view": "Rid",
+	"hawiki-view-viewsource": "Luk dhi sòrs",
+	"hawiki-more-actions": "Mòr"
+}

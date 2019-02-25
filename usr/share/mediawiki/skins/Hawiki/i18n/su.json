@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"hawiki-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
+	"hawiki-action-addsection": "Jejer anyar",
+	"hawiki-action-delete": "Hapus",
+	"hawiki-action-move": "Pindahkeun",
+	"hawiki-action-protect": "Konci",
+	"hawiki-action-undelete": "Bolaykeun ngahapus",
+	"hawiki-action-unprotect": "Robah protéksi",
+	"hawiki-view-create": "Jieun",
+	"hawiki-view-edit": "Édit",
+	"hawiki-view-history": "Témbongkeun jujutan",
+	"hawiki-view-view": "Baca",
+	"hawiki-view-viewsource": "Témbongkeun sumber",
+	"hawiki-more-actions": "Lianna"
+}

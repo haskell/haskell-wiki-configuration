@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"skinname-hawiki": "Vektor",
+	"hawiki.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Vektor */",
+	"hawiki.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Vektor */",
+	"hawiki-action-addsection": "Rannbennad nevez",
+	"hawiki-action-delete": "Diverkañ",
+	"hawiki-action-move": "Adenvel",
+	"hawiki-action-protect": "Gwareziñ",
+	"hawiki-action-undelete": "Diziverkañ",
+	"hawiki-action-unprotect": "Cheñch gwarez",
+	"hawiki-view-create": "Krouiñ",
+	"hawiki-view-edit": "Kemmañ",
+	"hawiki-view-history": "Gwelet an istor",
+	"hawiki-view-view": "Lenn",
+	"hawiki-view-viewsource": "Sellet ouzh tarzh an destenn",
+	"hawiki-more-actions": "Muioc'h"
+}

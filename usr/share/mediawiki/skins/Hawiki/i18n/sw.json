@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr",
+			"Muddyb Blast Producer"
+		]
+	},
+	"hawiki-action-addsection": "Weka mada",
+	"hawiki-action-delete": "Futa",
+	"hawiki-action-move": "Hamisha",
+	"hawiki-action-protect": "Linda",
+	"hawiki-action-undelete": "Rudisha",
+	"hawiki-action-unprotect": "Badilisha ulinzi",
+	"hawiki-view-create": "Anzisha",
+	"hawiki-view-edit": "Hariri",
+	"hawiki-view-history": "Fungua historia",
+	"hawiki-view-view": "Soma",
+	"hawiki-view-viewsource": "Tazama msimbo"
+}
