@@ -22,3 +22,4 @@ class SyntaxHighlightHaskellAliasHooks
         return '<span class="inline-code">' . $out . '</span>';
     }
 }
+
