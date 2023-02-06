@@ -1,6 +1,6 @@
 # Syntax highlighting tag alias for Haskell
 
-This extension adds ability to use <haskell></haskell> and <hask></hask> to highlight blocks of Haskell code.
+This extension adds ability to use `<haskell></haskell>` and `<hask></hask>` to highlight blocks of Haskell code.
 The functionality of this extension relies on SyntaxHighlight_GeSHi module.
 
 ## Running the tests
