@@ -1,0 +1,35 @@
+!! hooks
+haskell
+hask
+!! endhooks
+
+!! test
+Check that the code that is placed inside <haskell/> element is correctly
+highlighted using Haskell syntax highlighting and is displayed on multiple lines.
+!!input
+<haskell>
+module Main (main) where
+
+main :: IO ()
+main = putStrLn "Hello, World!"
+</haskell>
+!! result
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kr">module</span> <span class="nn">Main</span> <span class="p">(</span><span class="nf">main</span><span class="p">)</span> <span class="kr">where</span>
+
+<span class="nf">main</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
+<span class="nf">main</span> <span class="ow">=</span> <span class="n">putStrLn</span> <span class="s">&quot;Hello, World!&quot;</span>
+</pre></div>
+
+!! end
+
+!! test
+Check that the code that is placed inside <hask/> element is correctly
+highlighted using Haskell syntax highlighting and is displayed on a single line.
+!!input
+<hask>
+repeat n t = take t $ cycle [n]
+</hask>
+!! result
+<p><span class="inline-code"><code class="mw-highlight" dir="ltr"><span class="nf">repeat</span> <span class="n">n</span> <span class="n">t</span> <span class="ow">=</span> <span class="n">take</span> <span class="n">t</span> <span class="o">$</span> <span class="n">cycle</span> <span class="p">[</span><span class="n">n</span><span class="p">]</span></code></span>
+</p>
+!! end

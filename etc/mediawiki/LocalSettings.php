@@ -246,37 +246,6 @@ wfLoadExtension( 'Renameuser' );
 wfLoadExtension( 'SpamBlacklist' );
 wfLoadExtension( 'TitleBlacklist' );
 wfLoadExtension( 'CollapsibleVector' );
-
-# CODE BELOW IS SPECIFIC TO HAWIKI.
-# It should be moved to its own extension.
-#
-# Make <haskell> a synonym for <source lang='haskell'>.
-#
-# The following is pretty hackish, but otherwise we'd have to edit the
-# extension code.
-function haskellKeywordHook( $text, $args = array(), $parser ) {
-  $args["lang"] = "haskell";
-  return SyntaxHighlight_GeSHi::parserHook( $text, $args, $parser );
-}
-
-function haskKeywordHook( $text, $args = array(), $parser ) {
-  $args['lang'] = 'haskell';
-  $args['enclose'] = 'none';
-  $out = SyntaxHighlight_GeSHi::parserHook( $text, $args, $parser );
-  return '<span class="inline-code">' . $out . '</span>';
-}
-
-function addHaskellKeywordHook() {
-  global $wgParser;
-  $wgParser->setHook( 'haskell', 'haskellKeywordHook' );
-  $wgParser->setHook( 'hask', 'haskKeywordHook' );
-  return true;
-}
-
-if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
-	$wgHooks['ParserFirstCallInit'][] = 'addHaskellKeywordHook';
-} else {
-	$wgExtensionFunctions[] = 'addHaskellKeywordHook';
-}
+wfLoadExtension( 'SyntaxHighlight_GeSHi_HaskellAlias' )
 
 unset( $wgFooterIcons['poweredby'] );
