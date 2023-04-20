@@ -1,5 +1,5 @@
 {
-  "name": "SyntaxHighlight_GeSHi_HaskellAlias",
+  "name": "SyntaxHighlightHaskellAlias",
   "author": "Tomas Račys",
   "url": "https://github.com/haskell/haskell-wiki-configuration",
   "description": "This extension adds support for <haskell/> and <hask/> tags to enable Haskell code syntax highlighting",
