@@ -7,7 +7,7 @@
   "license-name": "GPL-2.0-or-later",
   "type": "parserhook",
   "requires": {
-    "MediaWiki": ">= 1.31"
+    "MediaWiki": ">= 1.35.0"
   },
   "AutoloadClasses": {
     "SyntaxHighlightHaskellAliasHooks": "includes/SyntaxHighlightHaskellAlias.php"
@@ -17,5 +17,5 @@
       "SyntaxHighlightHaskellAliasHooks::onParserFirstCallInit"
     ]
   },
-  "manifest_version": 1
+  "manifest_version": 2
 }
