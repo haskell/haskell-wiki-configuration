@@ -1,26 +1,22 @@
 <?php
 
-use Mediawiki\SyntaxHighlight;
-
-class SyntaxHighlightHaskellAliasHooks
+class SyntaxHighlightHaskellAlias
 {
   public static function onParserFirstCallInit(Parser &$parser)
   {
-    $parser->setHook('haskell', [self::class, 'haskellKeywordHook']);
-    $parser->setHook('hask', [self::class, 'haskKeywordHook']);
+    $parser->setHook( 'haskell', [ self::class, 'renderHaskellTag' ] );
+    $parser->setHook( 'hask', [ self::class, 'renderHaskTag' ] );
   }
 
-  public static function haskellKeywordHook($text, $args = array(), $parser)
+  public static function renderHaskellTag( $input, array $args, Parser $parser, PPFrame $frame )
   {
-    $args['lang'] = 'haskell';
-    return SyntaxHighlight::parserHook($text, $args, $parser);
+    $output = $parser->recursiveTagParse( $input, $frame );
+    return '<syntaxhighlight lang="haskell">' . $output . '</syntaxhighlight>';
   }
 
-  public static function haskKeywordHook($text, $args = array(), $parser)
+  public static function renderHaskTag( $input, array $args, Parser $parser, PPFrame $frame )
   {
-    $args['lang'] = 'haskell';
-    $args['enclose'] = 'none';
-    $out = SyntaxHighlight::parserHook($text, $args, $parser);
-    return '<span class="inline-code">' . $out . '</span>';
+    $output = $parser->recursiveTagParse( $input, $frame );
+    return '<syntaxhighlight lang="haskell" inline>' . $output . '</syntaxhighlight>';
   }
 }
