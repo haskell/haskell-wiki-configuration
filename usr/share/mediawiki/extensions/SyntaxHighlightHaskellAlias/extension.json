@@ -10,12 +10,10 @@
     "MediaWiki": ">= 1.35.0"
   },
   "AutoloadClasses": {
-    "SyntaxHighlightHaskellAliasHooks": "includes/SyntaxHighlightHaskellAlias.php"
+    "SyntaxHighlightHaskellAlias": "includes/SyntaxHighlightHaskellAlias.php"
   },
   "Hooks": {
-    "ParserFirstCallInit": [
-      "SyntaxHighlightHaskellAliasHooks::onParserFirstCallInit"
-    ]
+    "ParserFirstCallInit": "SyntaxHighlightHaskellAlias::onParserFirstCallInit"
   },
-  "manifest_version": 2
+  "manifest_version": 1
 }
