@@ -14,7 +14,7 @@
               description = "";
             };
             url = mkOption {
-              type = types.string;
+              type = types.str;
               description = "The URL for the wiki";
               default = "wiki.haskell.org";
             };
@@ -70,6 +70,29 @@
                 httpd.virtualHost = {
                   hostName = "wiki.haskell.org";
                 };
+
+                extraConfig =
+                  ''
+                  $wgEmergencyContact = "haskell-cafe@haskell.org";
+
+                  $wgMainCacheType = CACHE_MEMCACHED;
+                  $wgMemCachedServers = array( "127.0.0.1:11211" );
+                  $wgSessionsInObjectCache = true;
+                  $wgSessionCacheType = CACHE_MEMCACHED;
+                  $wgSessionsInMemcached = true;
+                  $wgEnableSidebarCache = true;
+
+                  $wgDisableCounters = true;
+
+                  $wgUseImageResize               = true;
+
+                  $wgEnableCreativeCommonsRdf = true;
+                  $wgRightsPage = "HaskellWiki:Copyrights";
+                  $wgRightsUrl  = "https://wiki.haskell.org/HaskellWiki:Copyrights";
+                  $wgRightsText = "simple permissive license";
+
+                  unset( $wgFooterIcons['poweredby'] );
+                  '';
                 
                 extensions = {
                   Cite = null;
