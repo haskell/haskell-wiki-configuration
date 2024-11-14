@@ -62,19 +62,10 @@
                 };
                 useHostResolvConf = lib.mkForce false;
               };
-
-              services.nginx.virtualHosts.${config.services.mediawiki.nginx.hostName} = { 
-                listen = [
-                  {
-                    addr = "127.0.0.1";
-                    port = 8081;
-                  }
-                ];
-              };
               
               services.mediawiki = {
                 enable = true;
-                webserver = "nginx";
+                webserver = "none";
                 url = "${if cfg.secure then "https" else "http"}://${cfg.url}";
                 name = "HaskellWiki";
                 passwordSender = "haskell-cafe@haskell.org";
@@ -109,7 +100,6 @@
                   Cite = null;
                   SyntaxHighlight_GeSHi = null;
                   Math = null;
-                  #Wikidiff2 = null;                                                                                                                                                                  
                   Interwiki = null;
                   WikiEditor = null;
                   CiteThisPage = null;
@@ -117,11 +107,15 @@
                   Gadgets = null;
                   ImageMap = null;
                   InputBox = null;
-                  # LocalisationUpdate = null; # Depricated                                                                                                                                           
                   Nuke = null;
                   ParserFunctions = null;
                   Poem = null;
-                  # Renameuser = null; # Part of mediawiki proper since 1.40                                                                                                                          
+
+                  #TemplateStyles = pkgs.fetchgit
+                  #  { url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles";
+                  #    rev = "522187051d9ddfd584934620b393a4966dd6a6a6";
+                  #    sha256 = "0zzbhf5787ffza4n0kz5a5ra7vkmk51w8lv0dr2h1rgg4jmnd5mq";
+                  #  };
                   SpamBlacklist = null;
                   TitleBlacklist = null;
                   CollapsibleVector = pkgs.fetchgit
@@ -140,6 +134,58 @@
               
               services.memcached = {
                 enable = true;
+              };
+
+              systemd.services.nginx.serviceConfig = {
+                SupplementaryGroups = [ config.users.groups.mediawiki.name ];
+              };
+              
+              services.nginx = {
+                enable = true;
+                # inspired by https://www.mediawiki.org/wiki/Manual:Short_URL/Nginx
+                virtualHosts.${config.services.mediawiki.nginx.hostName} = {
+                  root = "${config.services.mediawiki.finalPackage}/share/mediawiki";
+                  listen = [
+                    {
+                      addr = "127.0.0.1";
+                      port = 8081;
+                    }
+                  ];
+                  locations = let
+                    withTrailingSlash = str: if lib.hasSuffix "/" str then str else "${str}/";
+                    in {
+                    "~ ^/(index|load|api|thumb|opensearch_desc|rest|img_auth)\\.php$".extraConfig = ''
+                      include ${config.services.nginx.package}/conf/fastcgi.conf;
+                      fastcgi_index index.php;
+                      fastcgi_pass unix:${config.services.phpfpm.pools.mediawiki.socket};
+                      '';
+                    "/images/".alias = withTrailingSlash config.services.mediawiki.uploadsDir;
+                    # Deny access to deleted images folder
+                    "/images/deleted".extraConfig = ''
+                      deny all;
+                      '';
+                    # MediaWiki assets (usually images)
+                    "~ ^/resources/(assets|lib|src)".extraConfig = ''
+                      rewrite ^/w(/.*) $1 break;
+                      add_header Cache-Control "public";
+                      expires 7d;
+                      '';
+                     # Assets, scripts and styles from skins and extensions
+                     "~ ^/(skins|extensions)/.+\\.(css|js|gif|jpg|jpeg|png|svg|wasm|ttf|woff|woff2)$".extraConfig = ''
+                       rewrite ^(/.*) $1 break;
+                       add_header Cache-Control "public";
+                       expires 7d;
+                       '';
+
+                     # Handling for Mediawiki REST API, see [[mw:API:REST_API]]
+                    "/rest.php/".tryFiles = "$uri $uri/ /rest.php?$query_string";
+
+                     # Handling for the article path (pretty URLs)
+                     "/".extraConfig = ''
+                       rewrite ^/(?<pagename>.*)$ /index.php;
+                       '';
+                  };
+                };
               };
             };
           };
