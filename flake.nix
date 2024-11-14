@@ -18,6 +18,10 @@
               description = "The URL for the wiki";
               default = "wiki.haskell.org";
             };
+            secure = mkOption {
+              type = types.bool;
+              default = true;
+            };
           };
         };
         
@@ -71,7 +75,7 @@
               services.mediawiki = {
                 enable = true;
                 webserver = "nginx";
-                url = "https://${cfg.url}";
+                url = "${if cfg.secure then "https" else "http"}://${cfg.url}";
                 name = "HaskellWiki";
                 passwordSender = "haskell-cafe@haskell.org";
                 passwordFile = cfg.passFile;
