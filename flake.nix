@@ -182,7 +182,7 @@
 
                      # Handling for the article path (pretty URLs)
                      "/".extraConfig = ''
-                       rewrite ^/(?<pagename>.*)$ /index.php;
+                       rewrite ^/(?<pagename>.*)$ /index.php?title=$1;
                        '';
                   };
                 };
