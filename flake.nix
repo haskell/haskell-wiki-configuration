@@ -49,27 +49,34 @@
 
             config = { config, pkgs, lib, ... }: {
               system.stateVersion = "24.05";
-            
+              
               networking.useDHCP = false;
               networking = {
                 firewall = {
                   enable = true;
-                  allowedTCPPorts = [ 80 ];
+                  allowedTCPPorts = [ 8081 ];
                 };
                 useHostResolvConf = lib.mkForce false;
+              };
+
+              services.nginx.virtualHosts.${config.services.mediawiki.nginx.hostName} = { 
+                listen = [
+                  {
+                    addr = "127.0.0.1";
+                    port = 8081;
+                  }
+                ];
               };
               
               services.mediawiki = {
                 enable = true;
                 webserver = "nginx";
-                url = cfg.url;
+                url = "https://${cfg.url}";
                 name = "HaskellWiki";
                 passwordSender = "haskell-cafe@haskell.org";
                 passwordFile = cfg.passFile;
-                
-                httpd.virtualHost = {
-                  hostName = "wiki.haskell.org";
-                };
+
+                nginx.hostName = cfg.url;
 
                 extraConfig =
                   ''
