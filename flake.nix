@@ -23,6 +23,12 @@
         
         config = lib.mkIf cfg.enable {
 
+          users.users.hawiki = {
+            isSystemUser = true;
+            group = config.users.groups.hawiki.name;
+          };
+          users.groups.hawiki = {};
+          
           systemd.tmpfiles.rules = [
             "d '/var/lib/hawiki' 0755 ${config.users.users.hawiki.name} ${config.users.groups.hawiki.name} - -"
           ];
