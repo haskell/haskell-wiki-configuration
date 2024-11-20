@@ -93,6 +93,8 @@
                   $wgRightsUrl  = "https://wiki.haskell.org/HaskellWiki:Copyrights";
                   $wgRightsText = "simple permissive license";
 
+                  $wgDefaultUserOptions['math'] = 'native';
+
                   unset( $wgFooterIcons['poweredby'] );
                   '';
                 
