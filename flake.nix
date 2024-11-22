@@ -11,7 +11,10 @@
             enable = mkEnableOption "Enable hawiki container";
             passFile = mkOption {
               type = types.path;
-              description = "";
+              description = ''
+                CANNOT be in /tmp, because PrivateTmp=true in the unit that uses
+                this file, deep in the guts of the mediawiki module.
+              '';
             };
             url = mkOption {
               type = types.str;
