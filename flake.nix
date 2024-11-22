@@ -100,6 +100,21 @@
                   $wgDefaultUserOptions['math'] = 'native';
 
                   unset( $wgFooterIcons['poweredby'] );
+
+                  ## Edit and user-creation restrictions
+
+                  # Don't allow anonymous users to edit
+                  $wgGroupPermissions['*']['edit'] = false;
+
+                  # Don't even let them sign up
+                  $wgGroupPermissions['*']['createaccount'] = false;
+
+                  # Somewhat redundantly, require email confirmation to edit
+                  $wgEmailConfirmToEdit = true;
+
+                  # The createaccount group, for users who can always create accounts
+                  $wgAvailableRights[] = 'createaccount';
+                  $wgGroupPermissions['createaccount']['createaccount'] = true;
                   '';
 
                 extensions = {
