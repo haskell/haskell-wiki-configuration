@@ -11,7 +11,10 @@
             enable = mkEnableOption "Enable hawiki container";
             passFile = mkOption {
               type = types.path;
-              description = "";
+              description = ''
+                CANNOT be in /tmp, because PrivateTmp=true in the unit that uses
+                this file, deep in the guts of the mediawiki module.
+              '';
             };
             url = mkOption {
               type = types.str;
@@ -24,7 +27,7 @@
             };
           };
         };
-        
+
         config = lib.mkIf cfg.enable {
 
           users.users.hawiki = {
@@ -32,14 +35,14 @@
             group = config.users.groups.hawiki.name;
           };
           users.groups.hawiki = {};
-          
+
           systemd.tmpfiles.rules = [
             "d '/var/lib/hawiki' 0755 ${config.users.users.hawiki.name} ${config.users.groups.hawiki.name} - -"
           ];
-          
+
           containers.hawiki = let passPath = config.sops.secrets.hawiki-pass.path; in {
             autoStart = true;
-            
+
             bindMounts = {
               "${cfg.passFile}" = {
                 isReadOnly = true;
@@ -53,7 +56,7 @@
 
             config = { config, pkgs, lib, ... }: {
               system.stateVersion = "24.05";
-              
+
               networking.useDHCP = false;
               networking = {
                 firewall = {
@@ -62,7 +65,7 @@
                 };
                 useHostResolvConf = lib.mkForce false;
               };
-              
+
               services.mediawiki = {
                 enable = true;
                 webserver = "none";
@@ -97,8 +100,23 @@
                   $wgDefaultUserOptions['math'] = 'native';
 
                   unset( $wgFooterIcons['poweredby'] );
+
+                  ## Edit and user-creation restrictions
+
+                  # Don't allow anonymous users to edit
+                  $wgGroupPermissions['*']['edit'] = false;
+
+                  # Don't even let them sign up
+                  $wgGroupPermissions['*']['createaccount'] = false;
+
+                  # Somewhat redundantly, require email confirmation to edit
+                  $wgEmailConfirmToEdit = true;
+
+                  # The createaccount group, for users who can always create accounts
+                  $wgAvailableRights[] = 'createaccount';
+                  $wgGroupPermissions['createaccount']['createaccount'] = true;
                   '';
-                
+
                 extensions = {
                   Cite = null;
                   SyntaxHighlight_GeSHi = null;
@@ -133,13 +151,13 @@
                     };
                   SyntaxHighlightHaskellAlias = ./SyntaxHighlightHaskellAlias;
                 };
-                
+
                 database = {
                   type = "mysql";
                   createLocally = true;
                 };
               };
-              
+
               services.memcached = {
                 enable = true;
               };
@@ -147,7 +165,7 @@
               systemd.services.nginx.serviceConfig = {
                 SupplementaryGroups = [ config.users.groups.mediawiki.name ];
               };
-              
+
               services.nginx = {
                 enable = true;
                 # inspired by https://www.mediawiki.org/wiki/Manual:Short_URL/Nginx
