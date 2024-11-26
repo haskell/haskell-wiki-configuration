@@ -54,7 +54,11 @@
               };
             };
 
-            config = { config, pkgs, lib, ... }: {
+            config = { config, pkgs, lib, ... }:
+            let
+              # Shared between wikimedia config and nginx config
+              uploadPath = "/wikiupload";
+            in {
               system.stateVersion = "24.05";
 
               networking.useDHCP = false;
@@ -115,6 +119,12 @@
                   # The createaccount group, for users who can always create accounts
                   $wgAvailableRights[] = 'createaccount';
                   $wgGroupPermissions['createaccount']['createaccount'] = true;
+
+
+                  ## Uploads
+
+                  # This is used to render URLs to uploaded files.
+                  $wgUploadPath = '${uploadPath}';
                   '';
 
                 extensions = {
@@ -185,9 +195,9 @@
                       fastcgi_index index.php;
                       fastcgi_pass unix:${config.services.phpfpm.pools.mediawiki.socket};
                       '';
-                    "/images/".alias = withTrailingSlash config.services.mediawiki.uploadsDir;
+                    "${uploadPath}/".alias = withTrailingSlash config.services.mediawiki.uploadsDir;
                     # Deny access to deleted images folder
-                    "/images/deleted".extraConfig = ''
+                    "${uploadPath}/deleted".extraConfig = ''
                       deny all;
                       '';
                     # MediaWiki assets (usually images)
