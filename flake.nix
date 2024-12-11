@@ -130,6 +130,9 @@
                   # specific.
                   $wgLocaltimezone = 'UTC';
 
+                  # Duplicate earlier legacy settings.
+                  $wgNamespacesWithSubpages[NS_MAIN] = true;
+                  $wgNamespacesWithSubpages[NS_CATEGORY] = true;
                   '';
 
                 extensions = {
