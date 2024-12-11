@@ -133,6 +133,9 @@
                   # Duplicate earlier legacy settings.
                   $wgNamespacesWithSubpages[NS_MAIN] = true;
                   $wgNamespacesWithSubpages[NS_CATEGORY] = true;
+
+                  # Disable cache-busting that Nix defeats anyway
+                  $wgInvalidateCacheOnLocalSettingsChange = false;
                   '';
 
                 extensions = {
