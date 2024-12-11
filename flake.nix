@@ -125,6 +125,10 @@
 
                   # This is used to render URLs to uploaded files.
                   $wgUploadPath = '${uploadPath}';
+
+                  ## Let users opt in to various notifications
+                  $wgEnotifUserTalk = true;
+                  $wgEnotifWatchlist = true;
                   '';
 
                 extensions = {
