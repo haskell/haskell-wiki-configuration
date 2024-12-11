@@ -93,8 +93,6 @@
 
                   $wgDisableCounters = true;
 
-                  $wgUseImageResize               = true;
-
                   $wgEnableCreativeCommonsRdf = true;
                   $wgRightsPage = "HaskellWiki:Copyrights";
                   $wgRightsUrl  = "https://wiki.haskell.org/HaskellWiki:Copyrights";
@@ -129,6 +127,11 @@
                   ## Let users opt in to various notifications
                   $wgEnotifUserTalk = true;
                   $wgEnotifWatchlist = true;
+
+                  ## This is the default, but timezones are scary so let's be
+                  #specific.
+                  $wgLocaltimezone = 'UTC';
+
                   '';
 
                 extensions = {
