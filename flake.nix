@@ -160,10 +160,9 @@
                   #  };
                   SpamBlacklist = null;
                   TitleBlacklist = null;
-                  SimpleMathJax = pkgs.fetchgit
+                  SimpleMathJax = builtins.fetchGit
                     { url = "https://github.com/jmnote/SimpleMathJax.git";
                       rev = "fab35e6ac66e1f5abd3c91a57719f8180dd346ef";
-                      sha256 = "09s0rizfng24c8lfp9f2wahbyq9n6q0br7ygjhfd7q5saxls4zjg";
                     };
                   CollapsibleVector = pkgs.fetchgit
                     { url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/CollapsibleVector";
