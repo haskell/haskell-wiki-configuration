@@ -103,33 +103,31 @@
 
                   unset( $wgFooterIcons['poweredby'] );
 
-                  ## Edit and user-creation restrictions
+                  # Edit and user-creation restrictions
 
-                  # Don't allow anonymous users to edit
+                  ## Don't allow anonymous users to edit
                   $wgGroupPermissions['*']['edit'] = false;
 
-                  # Don't even let them sign up
+                  ## Don't even let them sign up
                   $wgGroupPermissions['*']['createaccount'] = false;
 
-                  # Somewhat redundantly, require email confirmation to edit
+                  ## Somewhat redundantly, require email confirmation to edit
                   $wgEmailConfirmToEdit = true;
 
-                  # The createaccount group, for users who can always create accounts
+                  ## The createaccount group, for users who can always create accounts
                   $wgAvailableRights[] = 'createaccount';
                   $wgGroupPermissions['createaccount']['createaccount'] = true;
 
 
-                  ## Uploads
-
                   # This is used to render URLs to uploaded files.
                   $wgUploadPath = '${uploadPath}';
 
-                  ## Let users opt in to various notifications
+                  # Let users opt in to various notifications
                   $wgEnotifUserTalk = true;
                   $wgEnotifWatchlist = true;
 
-                  ## This is the default, but timezones are scary so let's be
-                  #specific.
+                  # This is the default, but timezones are scary so let's be
+                  # specific.
                   $wgLocaltimezone = 'UTC';
 
                   '';
