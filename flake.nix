@@ -5,6 +5,7 @@
     nixosModules.hawiki = { config, pkgs, lib, ... }:
       with lib;
       let cfg = config.services.hawiki;
+          wikistatic = ./wikistatic;
       in {
         options = {
           services.hawiki = {
@@ -58,6 +59,7 @@
             let
               # Shared between wikimedia config and nginx config
               uploadPath = "/wikiupload";
+              staticPath = "/wikistatic";
             in {
               system.stateVersion = "24.05";
 
@@ -136,6 +138,16 @@
 
                   # Disable cache-busting that Nix defeats anyway
                   $wgInvalidateCacheOnLocalSettingsChange = false;
+
+                  # Static assets
+                  $wgLogos = [
+                    # Not enabled cause it is not square and looks like garbage
+                    # after getting squashed.
+                    # 'icon' => "${staticPath}/haskellwiki_logo.png",
+                    '1x' => "${staticPath}/haskellwiki_logo.png",
+                    '2x' => "${staticPath}/haskellwiki_logo.png",
+                  ];
+                  $wgFavicon          = "${staticPath}/favicon.ico";
                   '';
 
                 extensions = {
@@ -225,6 +237,9 @@
 
                      # Handling for Mediawiki REST API, see [[mw:API:REST_API]]
                     "/rest.php/".tryFiles = "$uri $uri/ /rest.php?$query_string";
+
+                     # Custom modification used on Haskell wiki
+                     "^~ ${staticPath}/".alias = withTrailingSlash wikistatic;
 
                      # Handling for the article path (pretty URLs)
                      "/".extraConfig = ''
