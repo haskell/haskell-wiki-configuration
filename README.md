@@ -10,7 +10,7 @@ For issues with the *content* of the wiki, just edit the wiki! 😃
 
 # Development
 
-There is a test vm setup in the nix flake. The test vm uses the environment variable `$HAWIKI_CONFIG` to pass in the configuration for the test vm. You can either manually set the variable `export HAWIKI_CONFIG=/absolute/path/to/hawiki-config` or use `nix develop` to set it the the `hawiki-config` directory in this project.
+There is a test vm setup in the nix flake. The test vm uses the environment variable `$HAWIKI_CONFIG` to pass in the configuration for the test vm. You can either manually set the variable `export HAWIKI_CONFIG=/absolute/path/to/hawiki-config` or use `nix develop` to set it the `hawiki-config` directory in this project.
 
 You will need a dump of the db and to setup a test password in `${HAWIKI_CONFIG}/hawiki-pass`
 
