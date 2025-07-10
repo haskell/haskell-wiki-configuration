@@ -161,6 +161,9 @@ in {
             ParserFunctions = null;
             Poem = null;
 
+            # TODO: Remove this manual installation of TemplateStyles once MediaWiki is upgraded to 1.44 or later,
+            # since the TemplateStyles extension will be bundled by default starting from that version.
+
             # TemplateStyles = 
             #   pkgs.stdenvNoCC.mkDerivation {
             #     name = "mediawiki-extensions-TemplateStyles";
