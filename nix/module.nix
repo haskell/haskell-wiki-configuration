@@ -161,6 +161,9 @@ in {
             ParserFunctions = null;
             Poem = null;
 
+            # TODO: Remove this manual installation of TemplateStyles once MediaWiki is upgraded to 1.44 or later,
+            # since the TemplateStyles extension will be bundled by default starting from that version.
+
             # TemplateStyles = 
             #   pkgs.stdenvNoCC.mkDerivation {
             #     name = "mediawiki-extensions-TemplateStyles";
@@ -178,8 +181,8 @@ in {
             #   };
             TemplateStyles = pkgs.fetchzip {
               name = "TemplateStyles";
-              url = "https://extdist.wmflabs.org/dist/extensions/TemplateStyles-REL1_42-aca189b.tar.gz";
-              hash = "sha256-fx2qdpz3ds5hbXxSBalJ7+mxvAGxQlaqW9Tdy5uxvVQ=";
+              url = "https://extdist.wmflabs.org/dist/extensions/TemplateStyles-REL1_44-8269659.tar.gz";
+              hash = "sha256-MI3J4O1CKgBtdbQMwvdNS3E8LA/n0RZXTOR7QxqM3qM=";
             };
                     SpamBlacklist = null;
             TitleBlacklist = null;
