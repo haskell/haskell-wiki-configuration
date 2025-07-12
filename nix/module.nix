@@ -196,6 +196,11 @@ in {
                 sha256 = "0fl80l3xi4fl98msmbwdi8vzynaaa9r6lp37hpb7faxhpkzb9wxh";
               };
             SyntaxHighlightHaskellAlias = ../SyntaxHighlightHaskellAlias;
+            Translate = pkgs.fetchgit
+              { url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/Translate";
+                rev = "2384f52a003a5b7efd2c1519575b7fd972788441";
+                sha256 = "sha256-/sj0wfcjVFFq1uCACAJOOkmeEL98AVBGUHWp76Ie2Fo=";
+              };
           };
 
           database = {
