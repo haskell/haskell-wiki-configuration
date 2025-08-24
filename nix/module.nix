@@ -179,11 +179,10 @@ in {
             #       cp -R . $out/
             #     '';
             #   };
-            TemplateStyles = pkgs.fetchzip {
-              name = "TemplateStyles";
-              url = "https://extdist.wmflabs.org/dist/extensions/TemplateStyles-REL1_44-8269659.tar.gz";
-              hash = "sha256-MI3J4O1CKgBtdbQMwvdNS3E8LA/n0RZXTOR7QxqM3qM=";
-            };
+            TemplateStyles = builtins.fetchGit
+              { url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles.git";
+                rev = "f7da7be4e6d1cd314b4980e16364bb68f8ad8c8e";
+              };
                     SpamBlacklist = null;
             TitleBlacklist = null;
             SimpleMathJax = builtins.fetchGit
