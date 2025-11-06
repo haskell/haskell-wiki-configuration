@@ -13,6 +13,9 @@ in {
 
 system.stateVersion = "24.05";
 
+# Not enough memory on the system for this.
+boot.tmp.useTmpfs = false;
+
 networking.useDHCP = false;
 networking = {
   firewall = {
