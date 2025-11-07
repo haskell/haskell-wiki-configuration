@@ -14,7 +14,7 @@
     devShells = forAllSystems (pkgs: {
       default = pkgs.mkShell {
         shellHook = ''
-          export HAWIKI_CONFIG=$(pwd)/hawiki-config/
+          export HAWIKI_STATE=$(pwd)/hawiki-state/
         '';
       };
     });

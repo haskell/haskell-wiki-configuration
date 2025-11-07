@@ -1,6 +1,6 @@
 { pkgs, config, modulesPath, ...}:
 let
-  configDir = "/var/lib/hawiki";
+  stateDir = "/var/lib/hawiki";
 in {
   imports = [
     ./module.nix
@@ -38,12 +38,12 @@ in {
     graphics = false;
     sharedDirectories = {
       brokerConfig = {
-        source = "$HAWIKI_CONFIG";
-        target = configDir;  
+        source = "$HAWIKI_STATE";
+        target = stateDir;
       };
     };
     forwardPorts = [
-      { from = "host"; host.port = 18888; guest.port = 80; }
+      { from = "host"; host.port = 18888; guest.port = 8081; }
     ];
   };
 
@@ -59,7 +59,7 @@ in {
 
   services.hawiki = {
     enable = true;
-      passFile = "${configDir}/hawiki-pass";
+      passFile = "${stateDir}/hawiki-pass";
       url = "localhost:18888";
       secure = false;
   };
