@@ -121,14 +121,18 @@ services.mediawiki = {
     ParserFunctions = null;
     Poem = null;
 
-    # TODO: Remove this manual installation of TemplateStyles once MediaWiki is upgraded to 1.44 or later,
-    # since the TemplateStyles extension will be bundled by default starting from that version.
+    # FIXME TemplateStyles disabled because it's causing internal errors. Or,
+    # something is, and I'm guessing it's the new/changed version of
+    # TemplateStyles. Let's find out!
+    #
+    ## TODO: Remove this manual installation of TemplateStyles once MediaWiki is upgraded to 1.44 or later,
+    ## since the TemplateStyles extension will be bundled by default starting from that version.
 
-    TemplateStyles = builtins.fetchGit {
-      url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles.git";
-      # Tag REL1_38, the last one I can find in the repo.
-      rev = "e0aa1fac05bcf580b539c1707d889dcfb4701cb0";
-    };
+    #TemplateStyles = builtins.fetchGit {
+    #  url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles.git";
+    #  # Tag REL1_38, the last one I can find in the repo.
+    #  rev = "e0aa1fac05bcf580b539c1707d889dcfb4701cb0";
+    #};
     SpamBlacklist = null;
     TitleBlacklist = null;
     SimpleMathJax = builtins.fetchGit
