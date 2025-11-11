@@ -126,7 +126,8 @@ services.mediawiki = {
 
     TemplateStyles = builtins.fetchGit {
       url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles.git";
-      rev = "f7da7be4e6d1cd314b4980e16364bb68f8ad8c8e";
+      # Tag REL1_38, the last one I can find in the repo.
+      rev = "e0aa1fac05bcf580b539c1707d889dcfb4701cb0";
     };
     SpamBlacklist = null;
     TitleBlacklist = null;
