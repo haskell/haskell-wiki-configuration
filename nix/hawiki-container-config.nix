@@ -95,6 +95,9 @@ services.mediawiki = {
     # Disable cache-busting that Nix defeats anyway
     $wgInvalidateCacheOnLocalSettingsChange = false;
 
+    # Responsive design: sets viewport to width=device-width instead of width=1120
+    $wgVectorResponsive = true;
+
     # Static assets
     $wgLogos = [
       # Not enabled cause it is not square and looks like garbage
