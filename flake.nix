@@ -16,6 +16,7 @@
         shellHook = ''
           export HAWIKI_STATE=$(pwd)/hawiki-state/
         '';
+        packages = [ pkgs.just ];
       };
     });
   };

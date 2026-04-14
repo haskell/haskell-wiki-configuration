@@ -37,13 +37,13 @@ in {
     cores = 1;
     graphics = false;
     sharedDirectories = {
-      brokerConfig = {
+      wikiState = {
         source = "$HAWIKI_STATE";
         target = stateDir;
       };
     };
     forwardPorts = [
-      { from = "host"; host.port = 18888; guest.port = 8081; }
+      { from = "host"; host.port = 18888; guest.port = 80; }
     ];
   };
 
@@ -59,7 +59,7 @@ in {
 
   services.hawiki = {
     enable = true;
-      passFile = "${stateDir}/hawiki-pass";
+      passFile = "${stateDir}/initial-password";
       url = "localhost:18888";
       secure = false;
   };

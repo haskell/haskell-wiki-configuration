@@ -34,7 +34,7 @@ services.mediawiki = {
   url = "${if cfg.secure then "https" else "http"}://${cfg.url}";
   name = "HaskellWiki";
   passwordSender = "haskell-cafe@haskell.org";
-  passwordFile = "/var/lib/mediawiki/hawiki-pass";
+  passwordFile = "/var/lib/mediawiki/initial-password";
 
   nginx.hostName = cfg.url;
 

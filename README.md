@@ -12,34 +12,51 @@ For issues with the *content* of the wiki, just edit the wiki! 😃
 
 There is a test vm setup in the nix flake. The test vm uses the environment variable `$HAWIKI_STATE` to pass in the state dir for the test vm. You can either manually set the variable `export HAWIKI_STATE=/absolute/path/to/hawiki-state` or use `nix develop` to set it the `hawiki-state` directory in this project.
 
-You will need a dump of the db and to setup a test password in `${HAWIKI_STATE}/hawiki-pass`
+You will need a dump of the db and to setup a test password in `${HAWIKI_STATE}/initial-password`
+
+## Using `just`
+
+Commands below will use [just](https://just.systems/man/en/). If you can't or
+don't want to use just, look in ./justfile to see the expanded commands.
+
+just is included in the Nix shell.
 
 ## Build the VM
 
 You can build the test vm with
 
 ```bash
-nixos-rebuild build-vm --flake .#hawiki-vm
+just vm-build
 ```
 
 ## Run (and stop) the VM
 You can start the vm with
 ```bash
-./result/bin/run-hawiki-vm-vm
+just vm-run
 ```
 
-To exit, press `C-a x`. That's the QEMU escape sequence.
+Once inside the vm, press `C-a x`. That's the QEMU escape sequence.
+
+> [!NOTE]
+> You can't exit the vm by exiting the shell. Use the escape sequence instead.
+
+> [!TIP]
+> Tired of your test wiki data or stuck with unwanted persistent state? Delete
+> it with `just vm-clean` or `just vm-reallyclean`.
 
 ## Use the dev wiki
 
-Log in as admin with the password you've placed in hawiki-pass.
+Run the VM. Access the dev wiki at http://localhost:18888
+
+Log in as admin. The initial password in the default hawiki-state is
+`coolpassword`.
 
 ### Editing
 
 In order to edit pages, the admin user needs to have their email validated.
 
 1. Run the VM
-2. Inside the VM, enter the container with `nixos-container root-login hawiki`
+2. Inside the VM, enter the container with `machinectl shell hawiki`.
 3. Get a timestamp with `date +%Y%m%d%H%M`
 4. Connect to the database with `mysql mediawiki`
 5. Run the sql:
