@@ -14,26 +14,41 @@ There is a test vm setup in the nix flake. The test vm uses the environment vari
 
 You will need a dump of the db and to setup a test password in `${HAWIKI_STATE}/hawiki-pass`
 
+## Build the VM
+
 You can build the test vm with
 
 ```bash
 nixos-rebuild build-vm --flake .#hawiki-vm
 ```
 
+## Run (and stop) the VM
 You can start the vm with
 ```bash
 ./result/bin/run-hawiki-vm-vm
 ```
 
-To setup the db with the dump inside the vm
-```bash
-nixos-container root-login hawiki
-cat /var/lib/mediawiki/hawiki-dump.sql | mysql mediawiki
-exit
-nixos-container restart hawiki
-```
+To exit, press `C-a x`. That's the QEMU escape sequence.
 
-To cleanup the vm state
-```bash
-./result/bin/run-hawiki-vm-vm
-```
+## Use the dev wiki
+
+Log in as admin with the password you've placed in hawiki-pass.
+
+### Editing
+
+In order to edit pages, the admin user needs to have their email validated.
+
+1. Run the VM
+2. Inside the VM, enter the container with `nixos-container root-login hawiki`
+3. Get a timestamp with `date +%Y%m%d%H%M`
+4. Connect to the database with `mysql mediawiki`
+5. Run the sql:
+   ```
+   update user
+   set user_email = admin@example.com, user_email_authenticated = '$timestamp'
+   where user_name = 'Admin';
+   ```
+
+   Replace `$timestamp` with the output from step 3.
+
+Log out (of the wiki) and log in again for the change to take effect.
