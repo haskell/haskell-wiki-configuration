@@ -3,7 +3,6 @@ let
   stateDir = "/var/lib/hawiki";
 in {
   imports = [
-    ./module.nix
     "${modulesPath}/virtualisation/qemu-vm.nix"
     "${modulesPath}/profiles/qemu-guest.nix"
   ];

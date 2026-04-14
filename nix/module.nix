@@ -21,6 +21,14 @@ in {
         type = types.bool;
         default = true;
       };
+      extensions = mkOption {
+        type = types.attrsOf (types.nullOr types.path);
+        default = {};
+        description = ''
+          Mediawiki extensions to override. These are merged (via //)
+          on top of the defaults in the container config.
+        '';
+      };
     };
   };
 
