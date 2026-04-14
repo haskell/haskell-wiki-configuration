@@ -28,6 +28,10 @@
       system = "x86_64-linux";
       modules = [ self.nixosModules.hawiki ./nix/vm.nix ];
     };
+    checks.x86_64-linux.smoke = import ./nix/test.nix {
+      inherit self;
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+    };
     devShells = forAllSystems (pkgs: {
       default = pkgs.mkShell {
         shellHook = ''

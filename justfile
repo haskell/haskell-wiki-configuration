@@ -11,3 +11,7 @@ vm-clean:
 # Also clean out the default state dir ./hawiki-state
 vm-reallyclean: vm-clean
     git clean -fdx hawiki-state
+
+# Runs a smoketest with a test vm
+test:
+    nix flake check
