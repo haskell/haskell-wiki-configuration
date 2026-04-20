@@ -34,7 +34,7 @@ services.mediawiki = {
   url = "${if cfg.secure then "https" else "http"}://${cfg.url}";
   name = "HaskellWiki";
   passwordSender = "haskell-cafe@haskell.org";
-  passwordFile = "/var/lib/mediawiki/hawiki-pass";
+  passwordFile = "/var/lib/mediawiki/initial-password";
 
   nginx.hostName = cfg.url;
 
@@ -111,44 +111,26 @@ services.mediawiki = {
 
   extensions = {
     Cite = null;
-    SyntaxHighlight_GeSHi = null;
-    Math = null;
-    Interwiki = null;
-    WikiEditor = null;
     CiteThisPage = null;
+    CollapsibleVector = null;
     ConfirmEdit = null;
     Gadgets = null;
     ImageMap = null;
     InputBox = null;
+    Interwiki = null;
+    Math = null;
     Nuke = null;
     ParserFunctions = null;
     Poem = null;
-
-    # FIXME TemplateStyles disabled because it's causing internal errors. Or,
-    # something is, and I'm guessing it's the new/changed version of
-    # TemplateStyles. Let's find out!
-    #
-    ## TODO: Remove this manual installation of TemplateStyles once MediaWiki is upgraded to 1.44 or later,
-    ## since the TemplateStyles extension will be bundled by default starting from that version.
-
-    #TemplateStyles = builtins.fetchGit {
-    #  url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles.git";
-    #  # Tag REL1_38, the last one I can find in the repo.
-    #  rev = "e0aa1fac05bcf580b539c1707d889dcfb4701cb0";
-    #};
+    SimpleMathJax = null;
     SpamBlacklist = null;
-    TitleBlacklist = null;
-    SimpleMathJax = builtins.fetchGit
-      { url = "https://github.com/jmnote/SimpleMathJax.git";
-        rev = "fab35e6ac66e1f5abd3c91a57719f8180dd346ef";
-      };
-    CollapsibleVector = pkgs.fetchgit
-      { url = "https://gerrit.wikimedia.org/r/mediawiki/extensions/CollapsibleVector";
-        rev = "3fddfb23f86061bbfafda6554b1d7c5f11edfcac";
-        sha256 = "0fl80l3xi4fl98msmbwdi8vzynaaa9r6lp37hpb7faxhpkzb9wxh";
-      };
+    # Should be an alias, but only shows up as "GeSHi" still.
+    SyntaxHighlight_GeSHi = null;
     SyntaxHighlightHaskellAlias = ../SyntaxHighlightHaskellAlias;
-  };
+    TemplateStyles = null;
+    TitleBlacklist = null;
+    WikiEditor = null;
+  } // cfg.extensions;
 
   database = {
     type = "mysql";
