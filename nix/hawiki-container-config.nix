@@ -23,6 +23,7 @@ networking = {
     allowedTCPPorts = [ 8081 ];
   };
   useHostResolvConf = lib.mkForce false;
+  nameservers = [ "8.8.8.8" "8.8.4.4" "208.67.220.220" "208.67.222.222" ];
 };
 systemd.services.mediawiki = {
   serviceConfig.LoadCredential = [ "hawiki-pass-file:hawiki-pass-file" ];
@@ -41,6 +42,16 @@ services.mediawiki = {
   extraConfig =
     ''
     $wgEmergencyContact = "haskell-cafe@haskell.org";
+
+    # Outbound mail relayed via mail.haskell.org
+    $wgSMTP = [
+      'host'      => 'mail.haskell.org',
+      'IDHost'    => 'wiki.haskell.org',
+      'localhost' => 'wiki.haskell.org',
+      'port'      => 25,
+      'auth'      => false,
+      'timeout'   => 5,
+    ];
 
     $wgMainCacheType = CACHE_MEMCACHED;
     $wgMemCachedServers = array( "127.0.0.1:11211" );
