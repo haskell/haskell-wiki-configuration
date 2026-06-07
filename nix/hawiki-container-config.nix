@@ -128,7 +128,6 @@ services.mediawiki = {
     Gadgets = null;
     ImageMap = null;
     InputBox = null;
-    Interwiki = null;
     Math = null;
     Nuke = null;
     ParserFunctions = null;

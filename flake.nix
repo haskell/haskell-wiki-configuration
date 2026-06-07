@@ -1,5 +1,5 @@
 {
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
   inputs.mediawikiPlugin_CollapsibleVector = {
     url = "git+https://gerrit.wikimedia.org/r/mediawiki/extensions/CollapsibleVector";
