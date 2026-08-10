@@ -2,33 +2,20 @@
 with lib;
 let
   cfg = config.services.hawiki;
+
+  # Shared between wikimedia config and nginx config
+  uploadPath = "/wikiupload";
+  staticPath = "/wikistatic";
+
+  # ??
+  wikistatic = ../wikistatic;
   containerConfig = { hostConfig, config, pkgs, lib, ... }:
 
     let
       cfg = hostConfig.services.hawiki;
 
-      # Shared between wikimedia config and nginx config
-      uploadPath = "/wikiupload";
-      staticPath = "/wikistatic";
-
-      # ??
-      wikistatic = ../wikistatic;
     in {
 
-    system.stateVersion = "24.05";
-
-    # Not enough memory on the system for this.
-    boot.tmp.useTmpfs = false;
-
-    networking.useDHCP = false;
-    networking = {
-      firewall = {
-        enable = true;
-        allowedTCPPorts = [ 8081 ];
-      };
-      useHostResolvConf = lib.mkForce false;
-      nameservers = [ "8.8.8.8" "8.8.4.4" "208.67.220.220" "208.67.222.222" ];
-    };
     systemd.services.mediawiki = {
       serviceConfig.LoadCredential = [ "hawiki-pass-file:hawiki-pass-file" ];
       serviceConfig.Environment = [ "HAWIKI_PASS_FILE=%d/hawiki-pass-file" ];
@@ -40,8 +27,6 @@ let
       name = "HaskellWiki";
       passwordSender = "haskell-cafe@haskell.org";
       passwordFile = "/var/lib/mediawiki/initial-password";
-
-      nginx.hostName = cfg.url;
 
       extraConfig =
         ''
