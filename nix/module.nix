@@ -92,7 +92,11 @@ in {
     services.nginx = {
       enable = true;
       # inspired by https://www.mediawiki.org/wiki/Manual:Short_URL/Nginx
-      virtualHosts.${config.services.mediawiki.nginx.hostName} = {
+      #
+      # Named for the service rather than the URL, so a public-facing vhost
+      # for the same host name can live alongside it.
+      virtualHosts.hawiki = {
+        serverName = cfg.url;
         root = "${config.services.mediawiki.finalPackage}/share/mediawiki";
         listen = [
           {
