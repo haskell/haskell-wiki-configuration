@@ -8,19 +8,21 @@ pkgs.testers.nixosTest {
 
     services.hawiki = {
       enable = true;
-      passFile = "/var/lib/hawiki/initial-password";
+      passFile = "/var/lib/mediawiki/initial-password";
       # Lets us curl the wiki from inside the vm.
       url = "localhost:8081";
       secure = false;
     };
 
     systemd.tmpfiles.rules = [
-      "f /var/lib/hawiki/initial-password 0644 root root - test-password"
+      "f /var/lib/mediawiki/initial-password 0644 root root - test-password"
     ];
   };
 
   testScript = ''
-    machine.wait_for_unit("container@hawiki.service")
+    machine.wait_for_unit("phpfpm-mediawiki.service")
+    machine.wait_for_unit("nginx.service")
+    machine.wait_for_open_port(8081)
     output = machine.succeed("curl --follow --fail-with-body http://localhost:8081/")
     assert "HaskellWiki" in output, f"Expected 'HaskellWiki' in the output, got: {output:1000]}"
   '';

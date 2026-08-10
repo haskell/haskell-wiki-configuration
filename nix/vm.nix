@@ -1,6 +1,6 @@
 { pkgs, config, modulesPath, ...}:
 let
-  stateDir = "/var/lib/hawiki";
+  stateDir = "/var/lib/mediawiki";
 in {
   imports = [
     "${modulesPath}/virtualisation/qemu-vm.nix"
