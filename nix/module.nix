@@ -16,8 +16,8 @@ in {
       passFile = mkOption {
         type = types.str;
         description = ''
-          CANNOT be in /tmp, because PrivateTmp=true in the unit that uses
-          this file, deep in the guts of the mediawiki module.
+          File holding the initial admin password. Only read while installing
+          a fresh wiki; an existing database is left alone.
         '';
       };
       url = mkOption {
@@ -41,17 +41,16 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    systemd.services.mediawiki = {
-      serviceConfig.LoadCredential = [ "hawiki-pass-file:${cfg.passFile}" ];
-      serviceConfig.Environment = [ "HAWIKI_PASS_FILE=%d/hawiki-pass-file" ];
-    };
+
+    systemd.services.mediawiki-init.serviceConfig.LoadCredential =
+      [ "hawiki-pass-file:${cfg.passFile}" ];
     services.mediawiki = {
       enable = true;
       webserver = "none";
       url = "${if cfg.secure then "https" else "http"}://${cfg.url}";
       name = "HaskellWiki";
       passwordSender = "haskell-cafe@haskell.org";
-      passwordFile = "/var/lib/mediawiki/initial-password";
+      passwordFile = "/run/credentials/mediawiki-init.service/hawiki-pass-file";
 
       extraConfig =
         ''
