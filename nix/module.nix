@@ -1,5 +1,4 @@
 { config, pkgs, lib, ... }:
-with lib;
 let
   cfg = config.services.hawiki;
 
@@ -12,25 +11,25 @@ let
 in {
   options = {
     services.hawiki = {
-      enable = mkEnableOption "Enable hawiki module";
-      passFile = mkOption {
-        type = types.str;
+      enable = lib.mkEnableOption "the Haskell wiki";
+      passFile = lib.mkOption {
+        type = lib.types.str;
         description = ''
           File holding the initial admin password. Only read while installing
           a fresh wiki; an existing database is left alone.
         '';
       };
-      url = mkOption {
-        type = types.str;
+      url = lib.mkOption {
+        type = lib.types.str;
         description = "The URL for the wiki";
         default = "wiki.haskell.org";
       };
-      secure = mkOption {
-        type = types.bool;
+      secure = lib.mkOption {
+        type = lib.types.bool;
         default = true;
       };
-      extensions = mkOption {
-        type = types.attrsOf (types.nullOr types.path);
+      extensions = lib.mkOption {
+        type = lib.types.attrsOf (lib.types.nullOr lib.types.path);
         default = {};
         description = ''
           Mediawiki extensions to override. These are merged (via //)
