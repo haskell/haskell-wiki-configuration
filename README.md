@@ -61,7 +61,7 @@ In order to edit pages, the admin user needs to have their email validated.
 4. Run the sql:
    ```
    update user
-   set user_email = admin@example.com, user_email_authenticated = '$timestamp'
+   set user_email = 'admin@example.com', user_email_authenticated = '$timestamp'
    where user_name = 'Admin';
    ```
 
