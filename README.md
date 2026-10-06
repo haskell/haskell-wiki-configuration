@@ -56,16 +56,15 @@ Log in as admin. The initial password in the default hawiki-state is
 In order to edit pages, the admin user needs to have their email validated.
 
 1. Run the VM
-2. Inside the VM, enter the container with `machinectl shell hawiki`.
-3. Get a timestamp with `date +%Y%m%d%H%M`
-4. Connect to the database with `mysql mediawiki`
-5. Run the sql:
+2. Get a timestamp with `date +%Y%m%d%H%M`
+3. Connect to the database with `mysql mediawiki`
+4. Run the sql:
    ```
    update user
-   set user_email = admin@example.com, user_email_authenticated = '$timestamp'
+   set user_email = 'admin@example.com', user_email_authenticated = '$timestamp'
    where user_name = 'Admin';
    ```
 
-   Replace `$timestamp` with the output from step 3.
+   Replace `$timestamp` with the output from step 2.
 
 Log out (of the wiki) and log in again for the change to take effect.
