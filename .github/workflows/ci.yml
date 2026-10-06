@@ -21,7 +21,5 @@ jobs:
 
       - uses: cachix/install-nix-action@v31
 
-      - uses: DeterminateSystems/magic-nix-cache-action@v14
-
       - name: Check flake
         run: nix flake check
