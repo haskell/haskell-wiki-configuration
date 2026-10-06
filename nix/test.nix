@@ -24,6 +24,6 @@ pkgs.testers.nixosTest {
     machine.wait_for_unit("nginx.service")
     machine.wait_for_open_port(8081)
     output = machine.succeed("curl --follow --fail-with-body http://localhost:8081/")
-    assert "HaskellWiki" in output, f"Expected 'HaskellWiki' in the output, got: {output:1000]}"
+    assert "HaskellWiki" in output, f"Expected 'HaskellWiki' in the output, got: {output[:1000]}"
   '';
 }
